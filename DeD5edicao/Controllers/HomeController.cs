@@ -18,7 +18,17 @@ namespace DeD5edicao.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Escolha()
+        {
+            return View();
+        }
+
+        public IActionResult Ficha()
         {
             return View();
         }

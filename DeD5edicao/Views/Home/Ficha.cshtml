@@ -1,8 +1,305 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/DED5e.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/Ficha.css" asp-append-version="true" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="cabecalho" class="row">
+    <div class="col-lg-4">
+        <input type="text" placeholder="Nome do Personagem" title="Nome do personagem" class="nome_personagem"/>
+        <span>Nome do Personagem</span>
+    </div>
+    <div class="col-lg-8">
+        <div id="linha1" class="row">
+            <div class="col-lg-3">
+                <input type="text" placeholder="Classe" title="classe" class="classe" />
+                <span>Classe</span>
+            </div>
+            <div class="col-lg-3">
+                <input type="number" min="0" placeholder="Nivel" title="Seu nivel" class="nivel" />
+                <span>Nivel</span>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" placeholder="Antecedente" title="Antecedente" class="antecedente" />
+                <span>Antecedente</span>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" placeholder="Nome do Jogador" title="Nome do Jogador" class="jogador" />
+                <span>Nome do Jogador</span>
+            </div>
+        </div>
+        <div id="linha2" class="row">
+            <div class="col-lg-3">
+                <input type="text" placeholder="Raça" title="Raça" class="raca" />
+                <span>Raça</span>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" placeholder="Tendência" title="Tendência" class="tendencia" />
+                <span>Tendência</span>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" placeholder="Pontos de Experiência" title="Pontos de Experiência" class="exp" />
+                <span>Pontos de Experiência</span>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div id="corpo" class="row">
+    <div id="status" class="col-lg-1">
+        <div id="forca">
+            <span>Força</span>
+            <input type="number" title="Modificador de força" class="mod_forca" />
+            <input type="number" min="0" title="Status de força" class="forca" />
+        </div>
+        <div id="destreza">
+            <span>Destreza</span>
+            <input type="number" title="Modificador de destreza" class="mod_destreza" />
+            <input type="number" min="0" title="Status de destreza" class="destreza" />
+        </div>
+        <div id="constituicao">
+            <span>Constituição</span>
+            <input type="number" title="Modificador de constituição" class="mod_constituicao" />
+            <input type="number" min="0" title="Status de constituição" class="constituicao" />
+        </div>
+        <div id="inteligencia">
+            <span>Inteligência</span>
+            <input type="number" title="Modificador de inteligência" class="mod_inteligencia" />
+            <input type="number" min="0" title="Status de inteligência" class="inteligencia" />
+        </div>
+        <div id="sabedoria">
+            <span>Sabedoria</span>
+            <input type="number" title="Modificador de sabedoria" class="mod_sabedoria" />
+            <input type="number" min="0" title="Status de sabedoria" class="sabedoria" />
+        </div>
+        <div id="carisma">
+            <span>Carisma</span>
+            <input type="number" title="Modificador de carisma" class="mod_carisma" />
+            <input type="number" min="0" title="Status de carisma" class="carisma" />
+        </div>
+    </div>
+
+    <div id="testes" class="col-lg-3">
+        <div id="inpiracao">
+            <input type="number" class="inpiracao" />
+                <span>Inspiração</span>
+        </div>
+        <div id="proeficiencia">
+            <input type="number" class="proeficiencia" />
+            <span>Bônus de Proeficiência</span>
+        </div>
+        <div id="teste">
+            <div id="teste_forca">
+                <input type="checkbox" value="" />
+                <input type="number" class="teste_forca" />
+                <span>Força</span>
+            </div>
+            <div id="teste_destreza">
+                <input type="checkbox" value="" />
+                <input type="number" class="teste_destreza" />
+                <span>Destreza</span>
+            </div>
+            <div id="teste_constituicao">
+                <input type="checkbox" value="" />
+                <input type="number" class="teste_constituicao" />
+                <span>Constituição</span>
+            </div>
+            <div id="teste_inteligencia">
+                <input type="checkbox" value="" />
+                <input type="number" class="teste_inteligencia" />
+                <span>Inteligência</span>
+            </div>
+            <div id="teste_sabedoria">
+                <input type="checkbox" value="" />
+                <input type="number" class="teste_sabedoria" />
+                <span>Sabedoria</span>
+            </div>
+            <div id="teste_carisma">
+                <input type="checkbox" value="" />
+                <input type="number" class="teste_carisma" />
+                <span>Carisma</span>
+            </div>
+            <span>TESTES DE RESISTÊNCIA</span>
+        </div>
+
+        <div id="pericias">
+            <div id="pericia_acrobacia">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_acrobacia" />
+                <span>Acrobacia <small class="text-muted">(Des)</small></span>
+            </div>
+            <div id="pericia_arcanismo">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_arcanismo" />
+                <span>Arcanismo <small class="text-muted">(Int)</small></span>
+            </div>
+            <div id="pericia_atletismo">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_atletismo" />
+                <span>Atletismo <small class="text-muted">(For)</small></span>
+            </div>
+            <div id="pericia_atuacao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_atuacao" />
+                <span>Atuação <small class="text-muted">(Car)</small></span>
+            </div>
+            <div id="pericia_blefar">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_blefar" />
+                <span>Blefar <small class="text-muted">(Car)</small></span>
+            </div>
+            <div id="pericia_furtividade">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_furtividade" />
+                <span>Furtividade <small class="text-muted">(Des)</small></span>
+            </div>
+            <div id="pericia_Historia">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_historia" />
+                <span>Historia <small class="text-muted">(Int)</small></span>
+            </div>
+            <div id="pericia_intimidacao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_intimidacao" />
+                <span>Intimidação <small class="text-muted">(Car)</small></span>
+            </div>
+            <div id="pericia_intuicao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_intuica" />
+                <span>Intuição <small class="text-muted">(Sab)</small></span>
+            </div>
+            <div id="pericia_investigacao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_investigacao" />
+                <span>Investigação <small class="text-muted">(Int)</small></span>
+            </div>
+            <div id="pericia_animais">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_animais" />
+                <span>Lidar com Animais <small class="text-muted">(Sab)</small></span>
+            </div>
+            <div id="pericia_medicina">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_medicina" />
+                <span>Medicina <small class="text-muted">(Sab)</small></span>
+            </div>
+            <div id="pericia_natureza">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_natureza" />
+                <span>Natureza <small class="text-muted">(Int)</small></span>
+            </div>
+            <div id="pericia_percepcao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_percepcap" />
+                <span>Percepção <small class="text-muted">(Sab)</small></span>
+            </div>
+            <div id="pericia_persuasao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_persuasao" />
+                <span>Persuasão <small class="text-muted">(Car)</small></span>
+            </div>
+            <div id="pericia_prestidigitãcao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_pretidigistacao" />
+                <span>Prestidigitação <small class="text-muted">(Des)</small></span>
+            </div>
+            <div id="pericia_religiao">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_religiao" />
+                <span>Religião <small class="text-muted">(Int)</small></span>
+            </div>
+            <div id="pericia_sobrevivencia">
+                <input type="checkbox" value="" />
+                <input type="number" class="pericia_sobrevivencia" />
+                <span>Sobrevivencia <small class="text-muted">(Sab)</small></span>
+            </div>
+            <span>PERÍCIAS</span>
+        </div>
+    </div>
+
+    <div id="vida_magia" class="col-lg-4">
+        <div id="superior" class="row">
+            <div id="armadura" class="col-lg-4">
+                <input type="number" class="armadura" />
+                <span>classe armd</span>
+            </div>
+            <div id="iniciativa" class="col-lg-4">
+                <input type="number" class="iniciativa" />
+                <span>Iniciativa</span>
+            </div>
+            <div id="deslocamento" class="col-lg-4">
+                <input type="number" class="deslocamento" />
+                <span>deslocamento</span>
+            </div>
+        </div>
+        <div id="PV">
+            <div id="cima" class="row">
+                <small class="text-muted col-lg-3">PV Totais</small>
+                <input type="number" min="0" placeholder="PV Total" class="col-lg-9" />
+            </div>
+            <input type="number" min="0" />
+            <span>PONTOS DE VIDA ATUAIS</span>
+        </div>
+        <div id="PVTemp">
+            <input type="number" class="pvtemp" />
+            <span>PONTOS DE VIDA TEMPORÁRIOS</span>
+        </div>
+        <div id="baixo" class="row">
+            <div class="col-lg-6">
+                <div id="daDos_vida" class="row">
+                    <small class="text-muted col-lg-3">Total</small>
+                    <input type="number" min="0" placeholder="Total" class="col-lg-9" />
+                </div>
+                <div id="dado">
+                    <input type="text" />
+                    <span>DADOS DE VIDA</span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <span>sucessos</span>
+                    <input type="checkbox" value="" />
+                    <input type="checkbox" value="" />
+                    <input type="checkbox" value="" />
+                </div>
+                <div>
+                    <span>fracassos</span>
+                    <input type="checkbox" value="" />
+                    <input type="checkbox" value="" />
+                    <input type="checkbox" value="" />
+                </div>
+                <span>TESTES CONTRA A MORTE</span>
+            </div>
+        </div>
+        <div id="ataque_magias">
+            <div id="linhas">
+                <div id="escritas" class="row">
+                    <small class="col-lg-6 text-muted">Nome</small>
+                    <small class="col-lg-2 text-muted">Bônus</small>
+                    <small class="col-lg-4 text-muted">Dano/tipo</small>
+                </div>
+                <div id="lineone" class="row">
+                    <input type="text"  class="col-lg-6"/>
+                    <input type="text" class="col-lg-2" />
+                    <input type="text" class="col-lg-4" />
+                </div>
+                <div id="linetwo" class="row">
+                    <input type="text" class="col-lg-6" />
+                    <input type="text" class="col-lg-2" />
+                    <input type="text" class="col-lg-4" />
+                </div>
+                <div id="linetree" class="row">
+                    <input type="text" class="col-lg-6" />
+                    <input type="text" class="col-lg-2" />
+                    <input type="text" class="col-lg-4" />
+                </div>
+            </div>
+            <input type="text" />
+            <span>ATAQUES E MAGIAS</span>
+        </div>
+    </div>
+</div>
+
+
+

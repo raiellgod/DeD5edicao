@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DeD5edicao/1.0.0": {
+        "runtime": {
+          "DeD5edicao.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeD5edicao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
