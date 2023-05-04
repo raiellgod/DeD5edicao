@@ -1,6 +1,4 @@
-main{
-    height:100vh
-}
+
 
 
 .nome_personagem {
@@ -8,15 +6,11 @@ main{
 }
 
 #cabecalho{
-    margin-bottom:80px;
+    margin-bottom:20px;
 }
 
 
 
 #testes input{
     width:50px;
-}
-
-footer{
-    display: relative !important;
 }

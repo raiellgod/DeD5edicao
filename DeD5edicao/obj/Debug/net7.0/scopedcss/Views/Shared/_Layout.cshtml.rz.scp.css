@@ -40,7 +40,7 @@ button.accept-policy[b-nw41p7omqn] {
 }
 
 .footer[b-nw41p7omqn] {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
