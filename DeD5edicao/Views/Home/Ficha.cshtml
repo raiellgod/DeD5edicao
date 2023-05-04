@@ -45,38 +45,40 @@
 </div>
 
 <div id="corpo" class="row">
-    <div id="status" class="col-lg-2">
-        <div id="forca">
-            <span>Força</span>
-            <input type="number" title="Modificador de força" class="mod_forca" />
-            <input type="number" min="0" title="Status de força" class="forca" />
+    <div id="numeros" class="col-lg-2">
+        <div id="status">
+            <div id="forca">
+                <span>Força</span>
+                <input type="number" title="Modificador de força" class="mod_forca" />
+                <input type="number" min="0" title="Status de força" class="forca" />
+            </div>
+            <div id="destreza">
+                <span>Destreza</span>
+                <input type="number" title="Modificador de destreza" class="mod_destreza" />
+                <input type="number" min="0" title="Status de destreza" class="destreza" />
+            </div>
+            <div id="constituicao">
+                <span>Constituição</span>
+                <input type="number" title="Modificador de constituição" class="mod_constituicao" />
+                <input type="number" min="0" title="Status de constituição" class="constituicao" />
+            </div>
+            <div id="inteligencia">
+                <span>Inteligência</span>
+                <input type="number" title="Modificador de inteligência" class="mod_inteligencia" />
+                <input type="number" min="0" title="Status de inteligência" class="inteligencia" />
+            </div>
+            <div id="sabedoria">
+                <span>Sabedoria</span>
+                <input type="number" title="Modificador de sabedoria" class="mod_sabedoria" />
+                <input type="number" min="0" title="Status de sabedoria" class="sabedoria" />
+            </div>
+            <div id="carisma">
+                <span>Carisma</span>
+                <input type="number" title="Modificador de carisma" class="mod_carisma" />
+                <input type="number" min="0" title="Status de carisma" class="carisma" />
+            </div>
         </div>
-        <div id="destreza">
-            <span>Destreza</span>
-            <input type="number" title="Modificador de destreza" class="mod_destreza" />
-            <input type="number" min="0" title="Status de destreza" class="destreza" />
         </div>
-        <div id="constituicao">
-            <span>Constituição</span>
-            <input type="number" title="Modificador de constituição" class="mod_constituicao" />
-            <input type="number" min="0" title="Status de constituição" class="constituicao" />
-        </div>
-        <div id="inteligencia">
-            <span>Inteligência</span>
-            <input type="number" title="Modificador de inteligência" class="mod_inteligencia" />
-            <input type="number" min="0" title="Status de inteligência" class="inteligencia" />
-        </div>
-        <div id="sabedoria">
-            <span>Sabedoria</span>
-            <input type="number" title="Modificador de sabedoria" class="mod_sabedoria" />
-            <input type="number" min="0" title="Status de sabedoria" class="sabedoria" />
-        </div>
-        <div id="carisma">
-            <span>Carisma</span>
-            <input type="number" title="Modificador de carisma" class="mod_carisma" />
-            <input type="number" min="0" title="Status de carisma" class="carisma" />
-        </div>
-    </div>
 
     <div id="testes" class="col-lg-3">
         <div id="inspiracao">
@@ -280,32 +282,34 @@
         </div>
         <div id="ataque_magias">
             <div id="linhas">
-                <div id="escritas" class="row">
-                    <small class="col-lg-6 text-muted">Nome</small>
-                    <small class="col-lg-2 text-muted">Bônus</small>
-                    <small class="col-lg-4 text-muted">Dano/tipo</small>
+                <div id="escritas">
+                    <div class="escrita row">
+                        <small class="col-lg-5 text-muted nome">Nome</small>
+                        <small class="col-lg-2 text-muted bonus">Bônus</small>
+                        <small class="col-lg-4 text-muted dano">Dano/tipo</small>
+                    </div>
                 </div>
                 <div id="lineone" class="row">
-                    <input type="text"  class="col-lg-6"/>
-                    <input type="text" class="col-lg-2" />
-                    <input type="text" class="col-lg-4" />
+                    <input type="text"  class="col-lg-5 nome"/>
+                    <input type="text" class="col-lg-2 bonus" />
+                    <input type="text" class="col-lg-4 dano" />
                 </div>
                 <div id="linetwo" class="row">
-                    <input type="text" class="col-lg-6" />
-                    <input type="text" class="col-lg-2" />
-                    <input type="text" class="col-lg-4" />
+                    <input type="text" class="col-lg-5 nome" />
+                    <input type="text" class="col-lg-2 bonus" />
+                    <input type="text" class="col-lg-4 dano" />
                 </div>
                 <div id="linetree" class="row">
-                    <input type="text" class="col-lg-6" />
-                    <input type="text" class="col-lg-2" />
-                    <input type="text" class="col-lg-4" />
+                    <input type="text" class="col-lg-5 nome" />
+                    <input type="text" class="col-lg-2 bonus" />
+                    <input type="text" class="col-lg-4 dano" />
                 </div>
             </div>
-            <input type="text" />
+            <input type="text" class="ataque-input"/>
             <span>ATAQUES E MAGIAS</span>
         </div>
         <div id="equipamento" class="row">
-            <div id="equip" class="col-lg-3">
+            <div id="equip" class="col-lg-4">
                 <div id="pc">
                     <span id="pc_span">PC</span>
                     <input id="pc_id" type="text" />
@@ -327,8 +331,9 @@
                     <input id="pl_id" type="text" />
                 </div>
             </div>
-            <div id="equip_text" class="col-lg-9">
+            <div id="equip_text" class="col-lg-8">
                 <input type="text" class="texto-equip" />
+                <span>Equipamento</span>
             </div>
         </div>
     </div>

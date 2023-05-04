@@ -54,12 +54,13 @@ input {
 }
 
 #corpo #forca, #corpo #destreza, #corpo #constituicao, #corpo #inteligencia, #corpo #sabedoria, #corpo #carisma {
-    height: 150px;
+    height: 152px;
     width: 150px;
     border-radius: 10px;
 }
 
-#corpo #status {
+#corpo #numeros #status {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,29 +252,29 @@ input {
 
         #corpo #vida_magia #grupo #baixo #dados {
             margin-right: 2%;
-            border-radius:10px;
+            border-radius: 10px;
         }
 
-        #corpo #vida_magia #grupo #baixo #dados #dados_vida{
-            margin:5px 0 5px 0
-        }
-
-            #corpo #vida_magia #grupo #baixo #dados #dados_vida .dado-texto {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding:0;
+            #corpo #vida_magia #grupo #baixo #dados #dados_vida {
+                margin: 5px 0 5px 0
             }
 
-                #corpo #vida_magia #grupo #baixo #dados #dados_vida input{
-                    width:75%;  
+                #corpo #vida_magia #grupo #baixo #dados #dados_vida .dado-texto {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
                 }
 
-        #corpo #vida_magia #grupo #baixo #dado input{
-            width:100%;
-            height:40px;
-            font-weight:bold;
-            font-size:2em;
+                #corpo #vida_magia #grupo #baixo #dados #dados_vida input {
+                    width: 75%;
+                }
+
+        #corpo #vida_magia #grupo #baixo #dado input {
+            width: 100%;
+            height: 40px;
+            font-weight: bold;
+            font-size: 2em;
         }
 
         #corpo #vida_magia #grupo #baixo #dado span {
@@ -290,14 +291,259 @@ input {
             border-radius: 10px;
         }
 
-            #corpo #vida_magia #grupo #baixo #sucess #morte{
-                margin:20px 0 10px 0;
+            #corpo #vida_magia #grupo #baixo #sucess #morte {
+                margin: 20px 0 10px 0;
             }
-                #corpo #vida_magia #grupo #baixo #sucess #morte #deubom span{
-                    margin-right:4px;
+
+                #corpo #vida_magia #grupo #baixo #sucess #morte #deubom span {
+                    margin-right: 4px;
                 }
 
-                #corpo #vida_magia #grupo #baixo #sucess .sucess_span {
-                    font-size: 0.7em;
-                    font-weight: bold;
-                }
+            #corpo #vida_magia #grupo #baixo #sucess .sucess_span {
+                font-size: 0.7em;
+                font-weight: bold;
+            }
+
+#corpo #vida_magia #ataque_magias {
+    border-radius: 10px
+}
+
+    #corpo #vida_magia #ataque_magias #escritas {
+        margin: 5px 10px 5px 10px;
+        padding: 0;
+    }
+
+        #corpo #vida_magia #ataque_magias #escritas .escrita .nome {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #corpo #vida_magia #ataque_magias #escritas .escrita .bonus {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #corpo #vida_magia #ataque_magias #escritas .escrita .dano {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #corpo #vida_magia #ataque_magias #lineone {
+            margin: 5px 10px 5px 10px;
+            padding: 0;
+        }
+            #corpo #vida_magia #ataque_magias #lineone .nome {
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right:10px;
+            }
+
+            #corpo #vida_magia #ataque_magias #lineone .bonus {
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+            }
+
+            #corpo #vida_magia #ataque_magias #lineone .dano {
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+    #corpo #vida_magia #ataque_magias #linetwo {
+        margin: 5px 10px 5px 10px;
+        padding: 0;
+    }
+        #corpo #vida_magia #ataque_magias #linetwo .nome {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        #corpo #vida_magia #ataque_magias #linetwo .bonus {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        #corpo #vida_magia #ataque_magias #linetwo .dano {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    #corpo #vida_magia #ataque_magias #linetree {
+        margin: 5px 10px 5px 10px;
+        padding: 0;
+    }
+        #corpo #vida_magia #ataque_magias #linetree .nome {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        #corpo #vida_magia #ataque_magias #linetree .bonus {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        #corpo #vida_magia #ataque_magias #linetree .dano {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    #corpo #vida_magia #ataque_magias .ataque-input {
+        width: 95%;
+        height: 500px;
+        margin: 2px 2.5% 0 2.5%;
+    }
+
+#corpo #vida_magia #ataque_magias span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#corpo #vida_magia #equipamento{
+    border-radius:10px;
+    padding:0;
+    margin:0;
+}
+
+    #corpo #vida_magia #equipamento #equip{
+        margin:20px 0 0 0;
+        padding:0 15px 0 5px;
+    }
+
+        #corpo #vida_magia #equipamento #equip #pc, #corpo #vida_magia #equipamento #equip #pp, #corpo #vida_magia #equipamento #equip #pe, #corpo #vida_magia #equipamento #equip #po, #corpo #vida_magia #equipamento #equip #pl{
+            height:45px;
+        }
+
+        #corpo #vida_magia #equipamento #equip #po #po_span {
+            font-size: 0.85em
+        }
+
+        #corpo #vida_magia #equipamento #equip #pl #pl_span {
+            font-size: 1.1em
+        }
+
+#corpo #vida_magia #equipamento #equip input{
+    width:85px
+}
+
+    #corpo #vida_magia #equipamento #equip_text .texto-equip {
+        width:100%;
+        margin-top:5px;
+        height:300px
+    }
+
+    #corpo #vida_magia #equipamento #equip_text span {
+        width: 100%;
+        margin-top: 5px;
+        font-weight:bold;
+    }
+
+#corpo #caracteristica #traco {
+border-radius:10px;
+}
+
+#corpo #caracteristica #traco input{
+    width:95%;
+    margin: 10px 2.5% 0 2.5%;
+    height:200px;
+}
+
+    #corpo #caracteristica #traco span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    #corpo #caracteristica #ideais input {
+        width: 95%;
+        margin: 10px 2.5% 0 2.5%;
+        height: 200px;
+    }
+
+    #corpo #caracteristica #ideais span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+#corpo #caracteristica #ligacoes input {
+    width: 95%;
+    margin: 10px 2.5% 0 2.5%;
+    height: 150px;
+}
+
+#corpo #caracteristica #ligacoes span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#corpo #caracteristica #defeito input {
+    width: 95%;
+    margin: 10px 2.5% 0 2.5%;
+    height: 150px;
+}
+
+#corpo #caracteristica #defeito span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#corpo #caracteristica #habilidade input {
+    width: 95%;
+    margin: 10px 2.5% 0 2.5%;
+    height: 500px;
+}
+
+#corpo #caracteristica #habilidade span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
