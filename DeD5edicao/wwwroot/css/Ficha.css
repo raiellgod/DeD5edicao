@@ -1,16 +1,303 @@
-
-
+.container {
+    margin-left: 50px
+}
 
 .nome_personagem {
     width: 400px;
 }
 
-#cabecalho{
-    margin-bottom:20px;
+#cabecalho {
+    margin-bottom: 15px;
+}
+
+input {
+    background-color: #DEE5FF;
+    color: #000;
+}
+
+#testes input {
+    width: 50px;
+}
+
+#nome_personagem, #infos, #status, #forca, #destreza, #constituicao, #inteligencia, #sabedoria, #carisma, #inspiracao, #proeficiencia, #teste, #pericias, #grupo, #armadura, #iniciativa, #deslocamento, #PV, #PVTemp, #dados, #sucess, #ataque_magias, #equipamento, #pc_span, #pc_id, #pp_span, #pp_id, #pe_span, #pe_id, #po_span, #po_id, #pl_span, #pl_id, #traco, #ideais, #ligacoes, #defeito, #habilidade {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.inspiracao, .proeficiencia {
+    border: 2px solid black;
+    margin: 2px;
+}
+
+#nome_personagem {
+    height: 65px;
+    margin-top: 25px;
+}
+
+    #nome_personagem .nome_personagem {
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    #nome_personagem span {
+        display: flex;
+        justify-content: center;
+    }
+
+#linha1 input, #linha2 input {
+    width: 175px;
+    margin-top: 5px
+}
+
+#corpo input {
+    text-align: center;
+}
+
+#corpo #forca, #corpo #destreza, #corpo #constituicao, #corpo #inteligencia, #corpo #sabedoria, #corpo #carisma {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#corpo #status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+    #corpo #status span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #corpo #status input {
+        height: 90px;
+        width: 100px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+#corpo #forca .forca, #corpo #destreza .destreza, #corpo #constituicao .constituicao, #corpo #inteligencia .inteligencia, #corpo #sabedoria .sabedoria, #corpo #carisma .carisma {
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 30px;
+}
+
+#corpo #testes #inspiracao, #corpo #testes #proeficiencia {
+    border-radius: 8px;
+}
+
+    #corpo #testes #inspiracao input, #corpo #testes #proeficiencia input {
+        text-align: center;
+    }
+
+#corpo #testes #teste, #corpo #testes #pericias {
+    border-radius: 10px;
+}
+
+    #corpo #testes #teste .check {
+        width: 30px
+    }
+
+    #corpo #testes #teste #teste_forca {
+        margin-top: 5px;
+    }
+
+    #corpo #testes #teste #teste_forca, #corpo #testes #teste #teste_destreza, #corpo #testes #teste #teste_constituicao, #corpo #testes #teste #teste_inteligencia, #corpo #testes #teste #teste_sabedoria, #corpo #testes #teste #teste_carisma {
+        margin-bottom: 5px;
+    }
+
+#corpo #testes .teste_resis {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#corpo #testes #teste input, #corpo #testes #pericias input {
+    text-align: center;
+}
+
+#corpo #testes #pericias .check {
+    width: 30px
+}
+
+#corpo #testes #pericias #pericia_acrobacia {
+    margin-top: 5px;
+}
+
+#corpo #testes #pericias #pericia_acrobacia, #corpo #testes #pericias #pericia_arcanismo, #corpo #testes #pericias #pericia_atletismo, #corpo #testes #pericias #pericia_atuacao, #corpo #testes #pericias #pericia_blefar, #corpo #testes #pericias #pericia_furtividade, #corpo #testes #pericias #pericia_historia, #corpo #testes #pericias #pericia_intimidacao, #corpo #testes #pericias #pericia_intuicao, #corpo #testes #pericias #pericia_investigacao, #corpo #testes #pericias #pericia_animais, #corpo #testes #pericias #pericia_medicina, #corpo #testes #pericias #pericia_natureza, #corpo #testes #pericias #pericia_percepcao, #corpo #testes #pericias #pericia_persuasao, #corpo #testes #pericias #pericia_prestidigitacao, #corpo #testes #pericias #pericia_religiao, #corpo #testes #pericias #pericia_ sobrevivencia {
+    margin-bottom: 5px;
+}
+
+#corpo #testes .peri {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 
-
-#testes input{
-    width:50px;
+#corpo #vida_magia #grupo {
+    border-radius: 10px;
 }
+
+    #corpo #vida_magia #grupo #superior {
+        margin: 0;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+        #corpo #vida_magia #grupo #superior input {
+            width: 80px;
+            margin-top: 5px;
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #corpo #vida_magia #grupo #superior #armadura, #corpo #vida_magia #grupo #superior #iniciativa {
+            margin-right: 10px;
+        }
+
+        #corpo #vida_magia #grupo #superior #armadura, #corpo #vida_magia #grupo #superior #iniciativa, #corpo #vida_magia #grupo #superior #deslocamento {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+    #corpo #vida_magia #grupo #vida #PV {
+        margin: 0 5px 5px 5px;
+        border-radius: 10px
+    }
+
+        #corpo #vida_magia #grupo #vida #PV #cima {
+            margin: 5px 0 5px 0;
+        }
+
+        #corpo #vida_magia #grupo #vida #PV .pv_texto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    #corpo #vida_magia #grupo #PV #cima .pvt {
+        width: 74%;
+    }
+
+    #corpo #vida_magia #grupo #PV .pva {
+        width: 98%;
+        height: 60px;
+        text-align: center;
+        font-size: 3em;
+        margin: 0 1% 0 1%;
+    }
+
+    #corpo #vida_magia #grupo #PV .pv-span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    #corpo #vida_magia #grupo #vida #PVTemp {
+        margin: 0 5px 5px 5px;
+        border-radius: 10px
+    }
+
+    #corpo #vida_magia #grupo #PVTemp .pvtemp {
+        width: 98%;
+        height: 60px;
+        text-align: center;
+        font-size: 3em;
+        margin: 5px 1% 0 1%;
+    }
+
+    #corpo #vida_magia #grupo #PVTemp span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    #corpo #vida_magia #grupo #baixo {
+        width: 100%;
+        margin: 15px 0 0 3%;
+    }
+
+        #corpo #vida_magia #grupo #baixo #dados {
+            margin-right: 2%;
+            border-radius:10px;
+        }
+
+        #corpo #vida_magia #grupo #baixo #dados #dados_vida{
+            margin:5px 0 5px 0
+        }
+
+            #corpo #vida_magia #grupo #baixo #dados #dados_vida .dado-texto {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:0;
+            }
+
+                #corpo #vida_magia #grupo #baixo #dados #dados_vida input{
+                    width:75%;  
+                }
+
+        #corpo #vida_magia #grupo #baixo #dado input{
+            width:100%;
+            height:40px;
+            font-weight:bold;
+            font-size:2em;
+        }
+
+        #corpo #vida_magia #grupo #baixo #dado span {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+
+        #corpo #vida_magia #grupo #baixo #sucess {
+            border-radius: 10px;
+        }
+
+            #corpo #vida_magia #grupo #baixo #sucess #morte{
+                margin:20px 0 10px 0;
+            }
+                #corpo #vida_magia #grupo #baixo #sucess #morte #deubom span{
+                    margin-right:4px;
+                }
+
+                #corpo #vida_magia #grupo #baixo #sucess .sucess_span {
+                    font-size: 0.7em;
+                    font-weight: bold;
+                }
