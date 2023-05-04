@@ -11,6 +11,10 @@ a {
   color: #0077cc;
 }
 
+img{
+   height:50px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

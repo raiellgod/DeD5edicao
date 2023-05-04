@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\Ficha.css"
     },
     {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
@@ -23,6 +27,14 @@
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\grande.png",
+      "PackagePath": "staticwebassets\\imagens\\grande.png"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\redondo.png",
+      "PackagePath": "staticwebassets\\imagens\\redondo.png"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\js\\Escolha.js",

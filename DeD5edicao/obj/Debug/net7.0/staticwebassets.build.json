@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sKv0tMFgAfUNxJBeTo2ntg1yUvEOxinShHQSnAYx9zE=",
+  "Hash": "vdh9TFF9BZtxlbhoZnp7MgHwr5Ravx/WePkJRuXZ7NY=",
   "Source": "DeD5edicao",
   "BasePath": "_content/DeD5edicao",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Ficha.css"
     },
     {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\css\\Index.css",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Index.css"
+    },
+    {
       "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\css\\Login.css",
       "SourceId": "DeD5edicao",
       "SourceType": "Discovered",
@@ -134,6 +151,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\grande.png",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "imagens/grande.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\grande.png"
+    },
+    {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\redondo.png",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "imagens/redondo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\redondo.png"
     },
     {
       "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\js\\Escolha.js",
