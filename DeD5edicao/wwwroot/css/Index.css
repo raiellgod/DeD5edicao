@@ -1,5 +1,8 @@
 ﻿.text-center{
-    height:79vh;
+    height:75vh;
 }
 
+footer{
+    display:absolute;
+}
 

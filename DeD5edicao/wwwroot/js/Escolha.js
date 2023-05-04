@@ -1,4 +1,10 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿
+function preencher_status(ponto_de_vida, forca, destreza, constituicao, inteligencia, sabedoria, carisma) {
+    localStorage.setItem("pv", ponto_de_vida);
+    localStorage.setItem("forca", forca);
+    localStorage.setItem("destreza", destreza);
+    localStorage.setItem("constituicao", constituicao);
+    localStorage.setItem("inteligencia", inteligencia);
+    localStorage.setItem("sabedoria", sabedoria);
+    localStorage.setItem("carisma", carisma);
+    }
