@@ -1,3 +1,13 @@
+body {
+    background-image: url('../imagens/mais_escuro.jpg');
+}
+
+.bg-white {
+    --bs-bg-opacity: 0 !important;
+    /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
+}
+
+
 .container {
     margin-left: 50px
 }
@@ -533,13 +543,13 @@ border-radius:10px;
     font-weight: bold;
 }
 
-#corpo #caracteristica #habilidade input {
+#caracteristica #habilidade input {
     width: 95%;
     margin: 10px 2.5% 0 2.5%;
     height: 500px;
 }
 
-#corpo #caracteristica #habilidade span {
+#caracteristica #habilidade span {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -547,3 +557,9 @@ border-radius:10px;
     align-items: center;
     font-weight: bold;
 }
+
+.escondidas {
+    display: none;
+}
+
+/*arrumar o css para funcionar as partials*/

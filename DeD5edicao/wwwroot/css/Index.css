@@ -1,8 +1,19 @@
-﻿.text-center{
+﻿body {
+    background-image: url('../imagens/com_medalha.jpg');
+
+}
+
+.bg-white {
+    --bs-bg-opacity: 0 !important;
+    /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
+}
+
+.text-center{
     height:75vh;
 }
 
 footer{
-    display:absolute;
+    display:absolute !important ;
+    background:red;
 }
 

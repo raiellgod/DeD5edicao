@@ -29,8 +29,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\com_medalha.jpg",
+      "PackagePath": "staticwebassets\\imagens\\com_medalha.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\engomadinho.jpg",
+      "PackagePath": "staticwebassets\\imagens\\engomadinho.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\escurao.jpg",
+      "PackagePath": "staticwebassets\\imagens\\escurao.jpg"
+    },
+    {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\grande.png",
       "PackagePath": "staticwebassets\\imagens\\grande.png"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\mais_escuro.jpg",
+      "PackagePath": "staticwebassets\\imagens\\mais_escuro.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\papel_velho.jpg",
+      "PackagePath": "staticwebassets\\imagens\\papel_velho.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\papel_velho_menos_velho.jpg",
+      "PackagePath": "staticwebassets\\imagens\\papel_velho_menos_velho.jpg"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\redondo.png",

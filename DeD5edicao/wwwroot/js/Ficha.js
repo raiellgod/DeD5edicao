@@ -1,5 +1,16 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿window.onload = function carregaAtributos() {
+    document.getElementById("StatusForca").value = localStorage.getItem("forca");
+    document.getElementById("StatusDestreza").value = localStorage.getItem("destreza");
+}
 
-// Write your JavaScript code.
+var TelaDesbloqueada = "divFicha1";
+var BotaoBloqueado = "botao1";
 
+function AbrirTela(id, idbutton) {
+    document.getElementById(TelaDesbloqueada).style.display = "none";
+    document.getElementById(id).style.display = "block";
+    TelaDesbloqueada = id;
+    document.getElementById(idbutton).disabled = true;
+    document.getElementById(BotaoBloqueado).disabled = false;
+    BotaoBloqueado = idbutton;
+}
