@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "93f02fVtKeUnHNqUWR+q8N9mnoJnV5c/uuoGXLAOyzA=",
+  "Hash": "7UdlIKVgmPlGH9OUI7W+WMPncXqXj3obZLN/UiuXF4U=",
   "Source": "DeD5edicao",
   "BasePath": "_content/DeD5edicao",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\barbarian_w_o.jpg",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "imagens/barbarian_w_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\barbarian_w_o.jpg"
+    },
+    {
       "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\com_medalha.jpg",
       "SourceId": "DeD5edicao",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\com_medalha.jpg"
+    },
+    {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\ed747a1ab4d10f67edb25f9a70592a54.jpg",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "imagens/ed747a1ab4d10f67edb25f9a70592a54.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\ed747a1ab4d10f67edb25f9a70592a54.jpg"
     },
     {
       "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\engomadinho.jpg",
@@ -219,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\grande.png"
+    },
+    {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\mago-3.5-236x300.jpg",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "imagens/mago-3.5-236x300.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\mago-3.5-236x300.jpg"
     },
     {
       "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\mais_escuro.jpg",

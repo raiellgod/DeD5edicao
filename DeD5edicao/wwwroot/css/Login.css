@@ -1,9 +1,18 @@
+body {
+    background-image: url('../imagens/mais_escuro.jpg');
+}
+
+.bg-white {
+    --bs-bg-opacity: 0 !important;
+    /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
+}
+
 .main {
     width: 350px;
     height: 500px;
     background: red;
     overflow: hidden;
-    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+    background-image: url('../imagens/mais_escuro.jpg');
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
     margin: auto;
@@ -20,7 +29,7 @@
 }
 
     .signup label {
-        color: #6D44B8;
+        color: #000;
     }
 
 label {
@@ -54,7 +63,7 @@ button {
     justify-content: center;
     display: block;
     color: #fff;
-    background: #573b8a;
+    background: #000;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
@@ -66,19 +75,19 @@ button {
 }
 
     button:hover {
-        background: #6d44b8;
+        background: #000;
     }
 
 .login {
     height: 460px;
-    background: #eee;
+    background-image: url('../imagens/mais_escuro.jpg');
     border-radius: 60% / 10%;
     transform: translateY(-180px);
     transition: 0.8s ease-in-out;
 }
 
     .login label {
-        color: #573b8a;
+        color: #000;
         transform: scale(0.6);
     }
 
@@ -94,6 +103,10 @@ button {
     transform: scale(0.6);
 }
 
-footer {
-    position : absolute !important
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /*line-height: 60px;*/
 }

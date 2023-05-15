@@ -1,3 +1,12 @@
+body {
+    background-image: url('../imagens/mais_escuro.jpg');
+}
+
+.bg-white {
+    --bs-bg-opacity: 0 !important;
+    /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
+}
+
 .containerer {
     display: flex;
     align-items: center;
@@ -18,7 +27,8 @@
 }
 
     .card.dark {
-        background-color: #31237c;
+        background-image: url(../imagens/mago-3.5-236x300.jpg);
+        background-size:cover;
         color: #fbfbfb;
     }
 
@@ -27,7 +37,8 @@
         }
 
     .card.light {
-        background-color: #fbfbfb;
+        background-image: url(../imagens/barbarian_w_o.jpg);
+        background-size: cover;
         color: #272727;
     }
 
@@ -64,7 +75,7 @@
 }
 
 h1 {
-    color: rgb(109 66 255);
+    color: #000;
 }
 
 h2 {
@@ -140,4 +151,12 @@ small {
 .back-h2 {
     font-size: 2rem;
     margin-top: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /*line-height: 60px;*/
 }

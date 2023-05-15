@@ -29,8 +29,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\barbarian_w_o.jpg",
+      "PackagePath": "staticwebassets\\imagens\\barbarian_w_o.jpg"
+    },
+    {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\com_medalha.jpg",
       "PackagePath": "staticwebassets\\imagens\\com_medalha.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\ed747a1ab4d10f67edb25f9a70592a54.jpg",
+      "PackagePath": "staticwebassets\\imagens\\ed747a1ab4d10f67edb25f9a70592a54.jpg"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\engomadinho.jpg",
@@ -43,6 +51,10 @@
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\grande.png",
       "PackagePath": "staticwebassets\\imagens\\grande.png"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\mago-3.5-236x300.jpg",
+      "PackagePath": "staticwebassets\\imagens\\mago-3.5-236x300.jpg"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\mais_escuro.jpg",
