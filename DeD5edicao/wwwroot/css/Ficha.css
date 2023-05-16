@@ -20,7 +20,12 @@ body {
     margin-bottom: 15px;
 }
 
-input textarea{
+input{
+    background-color: #DEE5FF;
+    color: #000;
+}
+
+textarea {
     background-color: #DEE5FF;
     color: #000;
 }
@@ -143,15 +148,15 @@ input textarea{
     width: 30px
 }
 
-#corpo #testes #pericias #pericia_acrobacia {
+#pericias #pericia_acrobacia {
     margin-top: 5px;
 }
 
-#corpo #testes #pericias #pericia_acrobacia, #corpo #testes #pericias #pericia_arcanismo, #corpo #testes #pericias #pericia_atletismo, #corpo #testes #pericias #pericia_atuacao, #corpo #testes #pericias #pericia_blefar, #corpo #testes #pericias #pericia_furtividade, #corpo #testes #pericias #pericia_historia, #corpo #testes #pericias #pericia_intimidacao, #corpo #testes #pericias #pericia_intuicao, #corpo #testes #pericias #pericia_investigacao, #corpo #testes #pericias #pericia_animais, #corpo #testes #pericias #pericia_medicina, #corpo #testes #pericias #pericia_natureza, #corpo #testes #pericias #pericia_percepcao, #corpo #testes #pericias #pericia_persuasao, #corpo #testes #pericias #pericia_prestidigitacao, #corpo #testes #pericias #pericia_religiao, #corpo #testes #pericias #pericia_ sobrevivencia {
+#pericias #pericia_acrobacia, #pericias #pericia_arcanismo, #pericias #pericia_atletismo, #pericias #pericia_atuacao, #pericias #pericia_blefar, #pericias #pericia_furtividade, #pericias #pericia_historia, #pericias #pericia_intimidacao, #pericias #pericia_intuicao, #pericias #pericia_investigacao, #pericias #pericia_animais, #pericias #pericia_medicina, #pericias #pericia_natureza, #pericias #pericia_percepcao, #pericias #pericia_persuasao, #pericias #pericia_prestidigitacao, #pericias #pericia_religiao, #pericias #pericia_ sobrevivencia {
     margin-bottom: 5px;
 }
 
-#corpo #testes .peri {
+.peri {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -314,41 +319,41 @@ input textarea{
                 font-weight: bold;
             }
 
-#corpo #vida_magia #ataque_magias {
+#ataque_magias {
     border-radius: 10px
 }
 
-    #corpo #vida_magia #ataque_magias #escritas {
+    #ataque_magias #escritas {
         margin: 5px 10px 5px 10px;
         padding: 0;
     }
 
-        #corpo #vida_magia #ataque_magias #escritas .escrita .nome {
+        #ataque_magias #escritas .escrita .nome {
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        #corpo #vida_magia #ataque_magias #escritas .escrita .bonus {
+        #ataque_magias #escritas .escrita .bonus {
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        #corpo #vida_magia #ataque_magias #escritas .escrita .dano {
+        #ataque_magias #escritas .escrita .dano {
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        #corpo #vida_magia #ataque_magias #lineone {
+        #ataque_magias #lineone {
             margin: 5px 10px 5px 10px;
             padding: 0;
         }
-            #corpo #vida_magia #ataque_magias #lineone .nome {
+            #ataque_magias #lineone .nome {
                 padding: 0;
                 display: flex;
                 justify-content: center;
@@ -356,7 +361,7 @@ input textarea{
                 margin-right:10px;
             }
 
-            #corpo #vida_magia #ataque_magias #lineone .bonus {
+            #ataque_magias #lineone .bonus {
                 padding: 0;
                 display: flex;
                 justify-content: center;
@@ -364,18 +369,18 @@ input textarea{
                 margin-right: 10px;
             }
 
-            #corpo #vida_magia #ataque_magias #lineone .dano {
+            #ataque_magias #lineone .dano {
                 padding: 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
 
-    #corpo #vida_magia #ataque_magias #linetwo {
+    #ataque_magias #linetwo {
         margin: 5px 10px 5px 10px;
         padding: 0;
     }
-        #corpo #vida_magia #ataque_magias #linetwo .nome {
+        #ataque_magias #linetwo .nome {
             padding: 0;
             display: flex;
             justify-content: center;
@@ -383,7 +388,7 @@ input textarea{
             margin-right: 10px;
         }
 
-        #corpo #vida_magia #ataque_magias #linetwo .bonus {
+        #ataque_magias #linetwo .bonus {
             padding: 0;
             display: flex;
             justify-content: center;
@@ -391,18 +396,18 @@ input textarea{
             margin-right: 10px;
         }
 
-        #corpo #vida_magia #ataque_magias #linetwo .dano {
+        #ataque_magias #linetwo .dano {
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-    #corpo #vida_magia #ataque_magias #linetree {
+    #ataque_magias #linetree {
         margin: 5px 10px 5px 10px;
         padding: 0;
     }
-        #corpo #vida_magia #ataque_magias #linetree .nome {
+        #ataque_magias #linetree .nome {
             padding: 0;
             display: flex;
             justify-content: center;
@@ -410,7 +415,7 @@ input textarea{
             margin-right: 10px;
         }
 
-        #corpo #vida_magia #ataque_magias #linetree .bonus {
+        #ataque_magias #linetree .bonus {
             padding: 0;
             display: flex;
             justify-content: center;
@@ -418,20 +423,20 @@ input textarea{
             margin-right: 10px;
         }
 
-        #corpo #vida_magia #ataque_magias #linetree .dano {
+        #ataque_magias #linetree .dano {
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-    #corpo #vida_magia #ataque_magias .ataque-input {
+    #ataque_magias .ataque-input {
         width: 95%;
         height: 500px;
         margin: 2px 2.5% 0 2.5%;
     }
 
-#corpo #vida_magia #ataque_magias span{
+#ataque_magias span{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -440,56 +445,56 @@ input textarea{
     font-weight: bold;
 }
 
-#corpo #vida_magia #equipamento{
+#equipamento{
     border-radius:10px;
     padding:0;
     margin:0;
 }
 
-    #corpo #vida_magia #equipamento #equip{
+    #equipamento #equip{
         margin:20px 0 0 0;
         padding:0 15px 0 5px;
     }
 
-        #corpo #vida_magia #equipamento #equip #pc, #corpo #vida_magia #equipamento #equip #pp, #corpo #vida_magia #equipamento #equip #pe, #corpo #vida_magia #equipamento #equip #po, #corpo #vida_magia #equipamento #equip #pl{
+        #equipamento #equip #pc, #equipamento #equip #pp, #equipamento #equip #pe, #equipamento #equip #po, #equipamento #equip #pl{
             height:45px;
         }
 
-        #corpo #vida_magia #equipamento #equip #po #po_span {
+        #equipamento #equip #po #po_span {
             font-size: 0.85em
         }
 
-        #corpo #vida_magia #equipamento #equip #pl #pl_span {
+        #equipamento #equip #pl #pl_span {
             font-size: 1.1em
         }
 
-#corpo #vida_magia #equipamento #equip input{
+#equipamento #equip textarea {
     width:85px
 }
 
-    #corpo #vida_magia #equipamento #equip_text .texto-equip {
+    #equipamento #equip_text .texto-equip {
         width:100%;
         margin-top:5px;
         height:300px
     }
 
-    #corpo #vida_magia #equipamento #equip_text span {
+    #equipamento #equip_text span {
         width: 100%;
         margin-top: 5px;
         font-weight:bold;
     }
 
-#corpo #caracteristica #traco {
+#caracteristica #traco {
 border-radius:10px;
 }
 
-#corpo #caracteristica #traco input{
+#caracteristica #traco textarea {
     width:95%;
     margin: 10px 2.5% 0 2.5%;
     height:200px;
 }
 
-    #corpo #caracteristica #traco span {
+    #caracteristica #traco span {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -498,13 +503,13 @@ border-radius:10px;
         font-weight: bold;
     }
 
-    #corpo #caracteristica #ideais input {
+    #caracteristica #ideais textarea {
         width: 95%;
         margin: 10px 2.5% 0 2.5%;
         height: 200px;
     }
 
-    #corpo #caracteristica #ideais span {
+    #caracteristica #ideais span {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -513,13 +518,13 @@ border-radius:10px;
         font-weight: bold;
     }
 
-#corpo #caracteristica #ligacoes input {
+#caracteristica #ligacoes textarea {
     width: 95%;
     margin: 10px 2.5% 0 2.5%;
     height: 150px;
 }
 
-#corpo #caracteristica #ligacoes span {
+#caracteristica #ligacoes span {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -528,13 +533,13 @@ border-radius:10px;
     font-weight: bold;
 }
 
-#corpo #caracteristica #defeito input {
+#caracteristica #defeito textarea {
     width: 95%;
     margin: 10px 2.5% 0 2.5%;
     height: 150px;
 }
 
-#corpo #caracteristica #defeito span {
+#caracteristica #defeito span {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -543,7 +548,7 @@ border-radius:10px;
     font-weight: bold;
 }
 
-#caracteristica #habilidade input {
+#caracteristica #habilidade textarea {
     width: 95%;
     margin: 10px 2.5% 0 2.5%;
     height: 500px;
