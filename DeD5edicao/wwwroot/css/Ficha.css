@@ -7,60 +7,64 @@ body {
     /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
 }
 
+#nome_personagem, #infos, #numeros, #forca, #destreza, #constituicao, #inteligencia, #sabedoria, #carisma, #inspiracao, .inspiracao, #proficiencia, .proficiencia, #teste, #pericias, #superior, #armadura, #iniciativa, #deslocamento, #PV, #PVTemp, #sucess, #dados, #ataque_magias, #equipamento, #pc_span, #pp_span, #pe_span, #po_span, #pl_span, #pc_id, #pp_id, #pe_id, #po_id, #pl_id, #traco, #ideais, #ligacoes, #defeito, #habilidade, #sab_pass, .sab_pass, #idiomas_profi, #nome-personagem, #humano, #aparencia, #historia, #tesouro, #outras_caracteristicas, #aliados, #simbolo {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    border-radius: 10px;
+    background: #DEE5FF;
+    color: #000
+}
+
+textarea {
+    border-radius: 10px;
+    background: #DEE5FF;
+    color: #000
+}
+
+span {
+    font-weight: bold;
+}
+
+small {
+    font-weight: normal;
+}
 
 .container {
     margin-left: 50px
-}
-
-.nome_personagem {
-    width: 400px;
 }
 
 #cabecalho {
     margin-bottom: 15px;
 }
 
-input{
-    background-color: #DEE5FF;
-    color: #000;
-}
-
-textarea {
-    background-color: #DEE5FF;
-    color: #000;
-}
-
 #testes input {
     width: 50px;
 }
 
-#nome_personagem, #infos, #status, #forca, #destreza, #constituicao, #inteligencia, #sabedoria, #carisma, #inspiracao, #proeficiencia, #teste, #pericias, #grupo, #armadura, #iniciativa, #deslocamento, #PV, #PVTemp, #dados, #sucess, #ataque_magias, #equipamento, #pc_span, #pc_id, #pp_span, #pp_id, #pe_span, #pe_id, #po_span, #po_id, #pl_span, #pl_id, #traco, #ideais, #ligacoes, #defeito, #habilidade {
+.inspiracao, .proficiencia {
     border: 2px solid black;
-    margin-bottom: 10px;
-}
-
-.inspiracao, .proeficiencia {
-    border: 2px solid black;
-    margin: 2px;
+    margin: 30px;
 }
 
 #nome_personagem {
-    height: 65px;
+    height: 80px;
     margin-top: 25px;
 }
 
     #nome_personagem .nome_personagem {
-        width: 350px;
+        width: 100%;
+        height:30px;
         margin-top: 10px;
     }
 
-    #nome_personagem span {
-        display: flex;
-        justify-content: center;
-    }
-
-#linha1 input, #linha2 input {
-    width: 175px;
+#linha1 input, #linha1 textarea, #linha2 input, #linha2 textarea {
+    width: 100%;
+    height:30px;
     margin-top: 5px
 }
 
@@ -72,6 +76,7 @@ textarea {
     height: 152px;
     width: 150px;
     border-radius: 10px;
+    margin: 40px
 }
 
 #corpo #numeros #status {
@@ -84,38 +89,38 @@ textarea {
     padding-top: 10px;
 }
 
-    #corpo #status span {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+#corpo #status span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    #corpo #status input {
-        height: 90px;
-        width: 100px;
-        margin-left: 20px;
-        text-align: center;
-    }
+#corpo #status input {
+    height: 90px;
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
 
 #corpo #forca .forca, #corpo #destreza .destreza, #corpo #constituicao .constituicao, #corpo #inteligencia .inteligencia, #corpo #sabedoria .sabedoria, #corpo #carisma .carisma {
     height: 40px;
     width: 80px;
-    border-radius: 50%;
+    border-radius: 50% !important;
     margin-top: -100px;
     margin-left: 30px;
 }
 
-#corpo #testes #inspiracao, #corpo #testes #proeficiencia {
-    border-radius: 8px;
+#corpo #testes #inspiracao, #corpo #testes #proficiencia {
+    border-radius: 10px;
 }
 
-    #corpo #testes #inspiracao input, #corpo #testes #proeficiencia input {
+    #corpo #testes #inspiracao input, #corpo #testes #proficiencia input {
         text-align: center;
     }
 
-#corpo #testes #teste, #corpo #testes #pericias {
+#corpo #testes #teste, #corpo #pericia {
     border-radius: 10px;
 }
 
@@ -140,11 +145,12 @@ textarea {
     font-weight: bold;
 }
 
-#corpo #testes #teste input, #corpo #testes #pericias input {
+#corpo #testes #teste input, #pericias input {
     text-align: center;
+    margin-right: 20px;
 }
 
-#corpo #testes #pericias .check {
+#pericias .check {
     width: 30px
 }
 
@@ -271,7 +277,7 @@ textarea {
         }
 
             #corpo #vida_magia #grupo #baixo #dados #dados_vida {
-                margin: 5px 0 5px 0
+                margin: 5px 0 5px 0;
             }
 
                 #corpo #vida_magia #grupo #baixo #dados #dados_vida .dado-texto {
@@ -287,9 +293,10 @@ textarea {
 
         #corpo #vida_magia #grupo #baixo #dado input {
             width: 100%;
-            height: 40px;
+            height: 100px;
             font-weight: bold;
             font-size: 2em;
+            margin-bottom: 5px;
         }
 
         #corpo #vida_magia #grupo #baixo #dado span {
@@ -300,6 +307,12 @@ textarea {
             align-items: center;
             font-weight: bold;
             font-size: 0.8em;
+        }
+
+        #deubom, #deuruim {
+            margin-bottom:10px;
+            margin-top:10px;
+            height:50px;
         }
 
         #corpo #vida_magia #grupo #baixo #sucess {
@@ -323,6 +336,12 @@ textarea {
     border-radius: 10px
 }
 
+    #ataque_magias #linhas {
+        width: 100%;
+        padding-left: 2.6%;
+        padding-right: 2.6%;
+    }
+
     #ataque_magias #escritas {
         margin: 5px 10px 5px 10px;
         padding: 0;
@@ -330,6 +349,7 @@ textarea {
 
         #ataque_magias #escritas .escrita .nome {
             padding: 0;
+            width: 35%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -337,6 +357,7 @@ textarea {
 
         #ataque_magias #escritas .escrita .bonus {
             padding: 0;
+            width: 30%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -344,44 +365,51 @@ textarea {
 
         #ataque_magias #escritas .escrita .dano {
             padding: 0;
+            width: 35%;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        #ataque_magias #lineone {
-            margin: 5px 10px 5px 10px;
+    #ataque_magias #lineone {
+        margin: 5px 10px 5px 10px;
+        padding: 0;
+    }
+
+        #ataque_magias #lineone .nome {
             padding: 0;
+            width: 42%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
         }
-            #ataque_magias #lineone .nome {
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-right:10px;
-            }
 
-            #ataque_magias #lineone .bonus {
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-right: 10px;
-            }
+        #ataque_magias #lineone .bonus {
+            padding: 0;
+            width: 14.4%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
 
-            #ataque_magias #lineone .dano {
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+        #ataque_magias #lineone .dano {
+            padding: 0;
+            width: 42%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
     #ataque_magias #linetwo {
         margin: 5px 10px 5px 10px;
         padding: 0;
     }
+
         #ataque_magias #linetwo .nome {
             padding: 0;
+            width: 42%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -390,6 +418,7 @@ textarea {
 
         #ataque_magias #linetwo .bonus {
             padding: 0;
+            width: 14.2%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -398,6 +427,7 @@ textarea {
 
         #ataque_magias #linetwo .dano {
             padding: 0;
+            width: 42%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -407,8 +437,10 @@ textarea {
         margin: 5px 10px 5px 10px;
         padding: 0;
     }
+
         #ataque_magias #linetree .nome {
             padding: 0;
+            width: 42%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -417,6 +449,7 @@ textarea {
 
         #ataque_magias #linetree .bonus {
             padding: 0;
+            width: 14.2%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -425,6 +458,7 @@ textarea {
 
         #ataque_magias #linetree .dano {
             padding: 0;
+            width: 42%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -436,63 +470,66 @@ textarea {
         margin: 2px 2.5% 0 2.5%;
     }
 
-#ataque_magias span{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-}
-
-#equipamento{
-    border-radius:10px;
-    padding:0;
-    margin:0;
-}
-
-    #equipamento #equip{
-        margin:20px 0 0 0;
-        padding:0 15px 0 5px;
+    #ataque_magias span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
     }
 
-        #equipamento #equip #pc, #equipamento #equip #pp, #equipamento #equip #pe, #equipamento #equip #po, #equipamento #equip #pl{
-            height:45px;
-        }
-
-        #equipamento #equip #po #po_span {
-            font-size: 0.85em
-        }
-
-        #equipamento #equip #pl #pl_span {
-            font-size: 1.1em
-        }
-
-#equipamento #equip textarea {
-    width:85px
+#equipamento {
+    border-radius: 10px;
+    padding: 0;
+    margin: 0 0 10px 0;
 }
+
+    #equipamento #equip {
+        margin: 20px 0 0 0;
+        padding: 0 15px 0 5px;
+    }
+
+        #equipamento #equip #pc, #equipamento #equip #pp, #equipamento #equip #pe, #equipamento #equip #po, #equipamento #equip #pl {
+            height: 45px;
+        }
+
+            #equipamento #equip #po #po_span {
+                font-size: 0.85em;
+            }
+
+            #equipamento #equip #pl #pl_span {
+                font-size: 1.1em
+            }
+
+        #equipamento #equip textarea {
+            width: 85px
+        }
 
     #equipamento #equip_text .texto-equip {
-        width:100%;
-        margin-top:5px;
-        height:300px
-    }
-
-    #equipamento #equip_text span {
         width: 100%;
         margin-top: 5px;
-        font-weight:bold;
+        height: 300px
+    }
+
+    #equipamento #equip-span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
     }
 
 #caracteristica #traco {
-border-radius:10px;
+    border-radius: 10px;
 }
 
-#caracteristica #traco textarea {
-    width:95%;
-    margin: 10px 2.5% 0 2.5%;
-    height:200px;
-}
+    #caracteristica #traco textarea {
+        width: 95%;
+        margin: 10px 2.5% 0 2.5%;
+        height: 200px;
+    }
 
     #caracteristica #traco span {
         width: 100%;
@@ -503,20 +540,20 @@ border-radius:10px;
         font-weight: bold;
     }
 
-    #caracteristica #ideais textarea {
-        width: 95%;
-        margin: 10px 2.5% 0 2.5%;
-        height: 200px;
-    }
+#caracteristica #ideais textarea {
+    width: 95%;
+    margin: 10px 2.5% 0 2.5%;
+    height: 200px;
+}
 
-    #caracteristica #ideais span {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-    }
+#caracteristica #ideais span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
 
 #caracteristica #ligacoes textarea {
     width: 95%;
@@ -563,6 +600,182 @@ border-radius:10px;
     font-weight: bold;
 }
 
+#linguagens #sab_pass {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+    #linguagens #sab_pass input {
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 50px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #linguagens #sab_pass span {
+        font-weight: bold
+    }
+
+    #linguagens #sab_pass small {
+        font-weight: initial;
+    }
+
+#linguagens #idiomas_profi {
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    #linguagens #idiomas_profi textarea {
+        width: 100%;
+        height: 300px;
+    }
+
+    #linguagens #idiomas_profi span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+
+#caracteristica {
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+#nome-personagem {
+    height: 65px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+    #nome-personagem .nome_personagem {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #nome-personagem span {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+#humano {
+    border-radius: 10px;
+}
+
+#caracteristica textarea {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px
+}
+
+#aparencia {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+
+    #aparencia textarea {
+        width: 100%;
+        height: 350px;
+    }
+
+    #aparencia span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+#historia textarea{
+    width:100%;
+    height:350px;
+    margin: 20px 0 0 0;
+}
+
+#historia span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tesouro textarea {
+    width: 100%;
+    height: 150px;
+    margin: 20px 0 0 0;
+}
+
+#tesouro span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#outras_caracteristicas textarea {
+    width: 100%;
+    height: 350px;
+    margin: 20px 0 0 0;
+}
+
+#outras_caracteristicas span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aliados textarea {
+    width: 97%;
+    height: 150px;
+    margin: 20px 0 0 0;
+}
+
+#aliados {
+    padding:0;
+    margin:0 0 10px 0;
+}
+
+#aliados span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#simbolo {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+#simbolo small{
+    width:100%;
+    height:20px;
+    margin-top:10px;
+    padding:0;
+}
+
+#simbolo textarea {
+    width: 100%;
+    height: 50px;
+    margin-top:-40px;
+}
+
 .escondidas {
     display: none;
 }
@@ -572,7 +785,4 @@ border-radius:10px;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    /*line-height: 60px;*/
 }
-
-/*arrumar o css para funcionar as partials*/

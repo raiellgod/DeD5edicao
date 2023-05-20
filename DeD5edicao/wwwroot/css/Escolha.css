@@ -24,26 +24,34 @@ body {
     transform: perspective(1000px) translateY(0);
     transform-style: preserve-3d;
     transition: transform 0.8s ease-in-out;
+    margin:0 20px;
 }
 
-    .card.dark {
+    .mago {
         background-image: url(../imagens/mago-3.5-236x300.jpg);
         background-size:cover;
-        color: #fbfbfb;
+        color: #fff;
     }
 
         .card.dark .purchase-button {
-            border: 1px solid indianred;
+            border: 1px solid #000;
         }
 
-    .card.light {
+    .barbaro {
         background-image: url(../imagens/barbarian_w_o.jpg);
         background-size: cover;
-        color: #272727;
+        color: #fff;
     }
 
+.artificer {
+    background-image: url(../imagens/ed747a1ab4d10f67edb25f9a70592a54.jpg);
+    background-size: cover;
+    background-position:center;
+    color: #fff;
+}
+
         .card.light .purchase-button {
-            border: 1px solid indianred;
+            border: 1px solid #000;
         }
 
 .card-container {
@@ -76,6 +84,7 @@ body {
 
 h1 {
     color: #000;
+    margin-bottom:80px;
 }
 
 h2 {
@@ -92,7 +101,7 @@ h2 {
 }
 
 .purchase-button-container {
-    color: indianred;
+    color: #fff;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -117,13 +126,13 @@ h2 {
     }
 
         .purchase-button-container .purchase-button.light:hover {
-            background-color: indianred;
-            color: #fbfbfb;
+            background-color: #000;
+            color: #fff;
         }
 
         .purchase-button-container .purchase-button.dark:hover {
-            background-color: indianred;
-            color: #272727;
+            background-color: #000;
+            color: #fff;
         }
 
 .details-text {

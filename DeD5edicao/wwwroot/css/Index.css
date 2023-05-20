@@ -1,5 +1,6 @@
 ﻿body {
     background-image: url('../imagens/com_medalha.jpg');
+    
 
 }
 
@@ -10,6 +11,10 @@
 
 .text-center{
     height:75vh;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 .footer {
