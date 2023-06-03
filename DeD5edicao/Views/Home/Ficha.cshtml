@@ -3,11 +3,18 @@
 }
 <link rel="stylesheet" href="~/css/Ficha.css" asp-append-version="true" />
 
+<button type="button" class="btn btn btn-dark" id="botao1" onclick="AbrirTela('divFicha1', 'botao1')" disabled>STATUS</button>
+<button type="button" class="btn btn btn-dark" id="botao2" onclick="AbrirTela('divFicha2', 'botao2')">ATAQUES E EQUIPAMENTOS</button>
+<button type="button" class="btn btn btn-dark" id="botao3" onclick="AbrirTela('divFicha3', 'botao3')">CARACTERISTICAS</button>
+<button type="button" class="btn btn btn-dark" id="botao4" onclick="AbrirTela('divFicha4', 'botao4')">IDIOMAS E APARÊNCIA</button>
+<button type="button" class="btn btn btn-dark" id="botao5" onclick="AbrirTela('divFicha5', 'botao5')">HISTÓRIA</button>
+
+
 <div id="divFicha1">
     <div id="cabecalho" class="row">
         <div id="nome_personagem" class="col-lg-4">
-            <textarea type="text" placeholder="Nome do Personagem" title="Nome do personagem" class="nome_personagem"></textarea>
-            <span>Nome do Personagem</span>
+            <textarea type="text" placeholder="Nome do Personagem" title="Nome do personagem" class="nome_personagem" maxlength="100"></textarea>
+            <span class="fa-sharp fa-light fa-goal-net"> <i ></i> Nome do Personagem</span>
         </div>
         <div id="infos" class="col-lg-8">
             <div id="linha1" class="row">
@@ -38,7 +45,7 @@
                     <span>Tendência</span>
                 </div>
                 <div class="col-lg-3">
-                    <textarea type="text" placeholder="Pontos de Experiência" title="Pontos de Experiência" class="exp"></textarea>
+                    <input type="number" placeholder="Pontos de Experiência" title="Pontos de Experiência" class="exp" />
                     <span>Pontos de Experiência</span>
                 </div>
             </div>
@@ -46,34 +53,34 @@
     </div>
 
     <div id="corpo" class="row">
-        <div id="numeros" class="col-lg-12">
+        <div id="numeros" class="col-lg-12 row">
             <div id="status">
-                <div id="forca">
+                <div id="forca" class="col-lg-2">
                     <span>Força</span>
                     <input type="number" title="Modificador de força" class="mod_forca" />
                     <input type="number" min="0" title="Status de força" class="forca" />
                 </div>
-                <div id="destreza">
+                <div id="destreza" class="col-lg-2">
                     <span>Destreza</span>
                     <input type="number" title="Modificador de destreza" class="mod_destreza" />
                     <input type="number" min="0" title="Status de destreza" class="destreza" />
                 </div>
-                <div id="constituicao">
+                <div id="constituicao" class="col-lg-2">
                     <span>Constituição</span>
                     <input type="number" title="Modificador de constituição" class="mod_constituicao" />
                     <input type="number" min="0" title="Status de constituição" class="constituicao" />
                 </div>
-                <div id="inteligencia">
+                <div id="inteligencia" class="col-lg-2">
                     <span>Inteligência</span>
                     <input type="number" title="Modificador de inteligência" class="mod_inteligencia" />
                     <input type="number" min="0" title="Status de inteligência" class="inteligencia" />
                 </div>
-                <div id="sabedoria">
+                <div id="sabedoria" class="col-lg-2">
                     <span>Sabedoria</span>
                     <input type="number" title="Modificador de sabedoria" class="mod_sabedoria" />
                     <input type="number" min="0" title="Status de sabedoria" class="sabedoria" />
                 </div>
-                <div id="carisma">
+                <div id="carisma" class="col-lg-2">
                     <span>Carisma</span>
                     <input type="number" title="Modificador de carisma" class="mod_carisma" />
                     <input type="number" min="0" title="Status de carisma" class="carisma" />
@@ -291,19 +298,8 @@
 <div id="divFicha3" class="escondidas"> @await Html.PartialAsync("Ficha3") </div>
 <div id="divFicha4" class="escondidas"> @await Html.PartialAsync("Ficha4") </div>
 <div id="divFicha5" class="escondidas"> @await Html.PartialAsync("Ficha5") </div>
-<!--<div id="divFicha6" class="escondidas"> @await Html.PartialAsync("Ficha6") </div>--!>
-
-
-<!--fazer a sidebar!-->
-<button type="button" class="btn btn btn-dark" id="botao1" onclick="AbrirTela('divFicha1', 'botao1')" disabled>STATUS</button>
-<button type="button" class="btn btn btn-dark" id="botao2" onclick="AbrirTela('divFicha2', 'botao2')">ATAQUES E EQUIPAMENTOS</button>
-<button type="button" class="btn btn btn-dark" id="botao3" onclick="AbrirTela('divFicha3', 'botao3')">CARACTERISTICAS</button>
-<button type="button" class="btn btn btn-dark" id="botao4" onclick="AbrirTela('divFicha4', 'botao4')">IDIOMAS E APARÊNCIA</button>
-<button type="button" class="btn btn btn-dark" id="botao5" onclick="AbrirTela('divFicha5', 'botao5')">HISTÓRIA</button>
-<!--<button type="button" class="btn btn btn-dark" id="botao6" onclick="AbrirTela('divFicha6', 'botao6')">MAGIAS</button>--!>
-
 
 <script src="/js/Ficha.js"></script>
 
-
+<script src="https://kit.fontawesome.com/494870c3f6.js" crossorigin="anonymous"></script>
 

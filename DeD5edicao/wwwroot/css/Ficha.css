@@ -72,6 +72,10 @@ small {
     text-align: center;
 }
 
+#status {
+    padding:0;
+}
+
 #corpo #forca, #corpo #destreza, #corpo #constituicao, #corpo #inteligencia, #corpo #sabedoria, #corpo #carisma {
     height: 152px;
     width: 150px;
@@ -651,14 +655,15 @@ small {
 
 
 #nome-personagem {
-    height: 65px;
+    height: 80px;
     margin-top: 25px;
     border-radius: 10px;
 }
 
     #nome-personagem .nome_personagem {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 5px;
+        height: 40px;
     }
 
     #nome-personagem span {
@@ -778,6 +783,10 @@ small {
 
 .escondidas {
     display: none;
+}
+
+button{
+    margin-bottom:20px;
 }
 
 .footer {
