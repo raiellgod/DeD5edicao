@@ -162,10 +162,13 @@ small {
     margin-top: 0;
 }
 
+.escondidas {
+    display: none;
+}
+
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    /*line-height: 60px;*/
 }

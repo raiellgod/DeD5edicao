@@ -18,3 +18,15 @@ function preencher_status(ponto_de_vida, forca, destreza, constituicao, intelige
     localStorage.setItem("carisma", carisma);
     window.location.href = "../Home/Ficha";
 };
+
+var TelaDesbloqueada = "divEscolha1";
+var BotaoBloqueado = "btnEscolha1";
+
+function AbrirTela(id, idbutton) {
+    document.getElementById(TelaDesbloqueada).style.display = "none";
+    document.getElementById(id).style.display = "block";
+    TelaDesbloqueada = id;
+    document.getElementById(idbutton).disabled = true;
+    document.getElementById(BotaoBloqueado).disabled = false;
+    BotaoBloqueado = idbutton;
+}

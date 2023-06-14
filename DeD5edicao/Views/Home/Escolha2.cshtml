@@ -1,15 +1,11 @@
-﻿<link rel="stylesheet" href="~/css/Escolha.css" asp-append-version="true" />
+﻿
+<link rel="stylesheet" href="~/css/Escolha.css" asp-append-version="true" />
 
-<button type="button" class="btn btn btn-dark" id="btnEscolha1" onclick="AbrirTela('divEscolha1', 'btnEscolha1')" disabled>CLASSE</button>
-<button type="button" class="btn btn btn-dark" id="btnEscolha2" onclick="AbrirTela('divEscolha2', 'btnEscolha2')">RAÇA</button>
-<button type="button" class="btn btn btn-dark" id="btnEscolha3" onclick="AbrirTela('divEscolha3', 'btnEscolha3')">TENDENCIA</button>
-<button type="button" class="btn btn btn-dark" id="btnEscolha4" onclick="AbrirTela('divEscolha4', 'btnEscolha4')">ANTECEDENTE</button>
-<button type="button" class="btn btn btn-dark" id="btnEscolha5" onclick="AbrirTela('divEscolha5', 'btnEscolha5')">NOME E HISTORIA</button>
 
 <div class="containerer">
-    <h1>Escolha sua raça</h1>
-    <div class="card-container row">
-        <div class="card-wrapper col-lg-3">
+    <h1>Escolha sua classe</h1>
+    <div class="card-container">
+        <div class="card-wrapper">
             <div class="card light barbaro">
                 <div class="text-overlay">
                     <h2>Barbaro</h2>
@@ -27,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-wrapper col-lg-3">
+        <div class="card-wrapper">
             <div class="card dark mago">
                 <div class="text-overlay">
                     <h2>Mago</h2>
@@ -45,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="card-wrapper col-lg-3">
+        <div class="card-wrapper">
             <div class="card light artificer">
                 <div class="text-overlay">
                     <h2>Artificer</h2>
@@ -63,29 +59,8 @@
                 </div>
             </div>
         </div>
-        <div class="card-wrapper col-lg-3">
-            <div class="card dark mago">
-                <div class="text-overlay">
-                    <h2>Warlock</h2>
-                    <div class="price"></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Warlock</h2>
-                    <i class="fa-solid fa-people-group"></i>
-                    <div class="purchase-button dark" onclick="escolhaMago()">Escolhido</div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
-
-
-<div id="divEscolha2" class="escondidas"> @await Html.PartialAsync("Escolha2") </div>
 
 <script src="/js/Escolha.js"></script>
 

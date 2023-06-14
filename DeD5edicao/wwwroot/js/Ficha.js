@@ -4,7 +4,7 @@
 }
 
 var TelaDesbloqueada = "divFicha1";
-var BotaoBloqueado = "botao1";
+var BotaoBloqueado = "btnFicha1";
 
 function AbrirTela(id, idbutton) {
     document.getElementById(TelaDesbloqueada).style.display = "none";
