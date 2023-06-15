@@ -29,12 +29,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\acolito.jpg",
+      "PackagePath": "staticwebassets\\imagens\\acolito.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\acolito2.jpg",
+      "PackagePath": "staticwebassets\\imagens\\acolito2.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\ana.png",
+      "PackagePath": "staticwebassets\\imagens\\ana.png"
+    },
+    {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\barbarian_w_o.jpg",
       "PackagePath": "staticwebassets\\imagens\\barbarian_w_o.jpg"
     },
     {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\bruxo.jpg",
+      "PackagePath": "staticwebassets\\imagens\\bruxo.jpg"
+    },
+    {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\com_medalha.jpg",
       "PackagePath": "staticwebassets\\imagens\\com_medalha.jpg"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\draconato.png",
+      "PackagePath": "staticwebassets\\imagens\\draconato.png"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\ed747a1ab4d10f67edb25f9a70592a54.jpg",
@@ -45,12 +65,20 @@
       "PackagePath": "staticwebassets\\imagens\\engomadinho.jpg"
     },
     {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\eremita.png",
+      "PackagePath": "staticwebassets\\imagens\\eremita.png"
+    },
+    {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\escurao.jpg",
       "PackagePath": "staticwebassets\\imagens\\escurao.jpg"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\grande.png",
       "PackagePath": "staticwebassets\\imagens\\grande.png"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\humano.jpg",
+      "PackagePath": "staticwebassets\\imagens\\humano.jpg"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\mago-3.5-236x300.jpg",
@@ -71,6 +99,10 @@
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\redondo.png",
       "PackagePath": "staticwebassets\\imagens\\redondo.png"
+    },
+    {
+      "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\imagens\\sabio.png",
+      "PackagePath": "staticwebassets\\imagens\\sabio.png"
     },
     {
       "Id": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\js\\Escolha.js",

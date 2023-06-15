@@ -7,6 +7,10 @@ body {
     /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
 }
 
+.salvar{
+    margin-left:35%;
+}
+
 #nome_personagem, #infos, #numeros, #forca, #destreza, #constituicao, #inteligencia, #sabedoria, #carisma, #inspiracao, .inspiracao, #proficiencia, .proficiencia, #teste, #pericias, #superior, #armadura, #iniciativa, #deslocamento, #PV, #PVTemp, #sucess, #dados, #ataque_magias, #equipamento, #pc_span, #pp_span, #pe_span, #po_span, #pl_span, #pc_id, #pp_id, #pe_id, #po_id, #pl_id, #traco, #ideais, #ligacoes, #defeito, #habilidade, #sab_pass, .sab_pass, #idiomas_profi, #nome-personagem, #humano, #aparencia, #historia, #tesouro, #outras_caracteristicas, #aliados, #simbolo {
     border: 2px solid #000;
     border-radius: 10px;

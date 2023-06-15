@@ -7,6 +7,10 @@ body {
     /* background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important; */
 }
 
+.salvar {
+    margin-left: 50%;
+}
+
 .containerer {
     display: flex;
     align-items: center;
@@ -47,6 +51,55 @@ body {
     background-image: url(../imagens/ed747a1ab4d10f67edb25f9a70592a54.jpg);
     background-size: cover;
     background-position:center;
+    color: #fff;
+}
+
+.bruxo {
+    background-image: url(../imagens/bruxo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.artista {
+    background-image: url(../imagens/acolito2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.eremita {
+    background-image: url(../imagens/eremita.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.humano {
+    background-image: url(../imagens/humano.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.anao {
+    background-image: url(../imagens/ana.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.draconato {
+    background-image: url(../imagens/draconato.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.sabio {
+    background-image: url(../imagens/sabio.png);
+    background-size: cover;
+    background-position: center;
     color: #fff;
 }
 

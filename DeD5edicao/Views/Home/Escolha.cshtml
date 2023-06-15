@@ -5,79 +5,78 @@
 <button type="button" class="btn btn btn-dark" id="btnEscolha3" onclick="AbrirTela('divEscolha3', 'btnEscolha3')">TENDENCIA</button>
 <button type="button" class="btn btn btn-dark" id="btnEscolha4" onclick="AbrirTela('divEscolha4', 'btnEscolha4')">ANTECEDENTE</button>
 <button type="button" class="btn btn btn-dark" id="btnEscolha5" onclick="AbrirTela('divEscolha5', 'btnEscolha5')">NOME E HISTORIA</button>
+<button type="button" class="btn btn-warning salvar" onclick="escolhaFisica()">Salvar</button>
 
-<div class="containerer">
-    <h1>Escolha sua raça</h1>
-    <div class="card-container row">
-        <div class="card-wrapper col-lg-3">
-            <div class="card light barbaro">
-                <div class="text-overlay">
-                    <h2>Barbaro</h2>
-                    <div class="price"><small></small></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+<div id="divEscolha1">
+    <div class="containerer">
+        <h1>Escolha sua raça</h1>
+        <div class="card-container row">
+            <div class="card-wrapper col-lg-3">
+                <div class="card light barbaro">
+                    <div class="text-overlay">
+                        <h2>Barbaro</h2>
+                        <div class="price"><small></small></div>
+                        <div class="details-text">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Barbaro</h2>
-                    <i class="fa-solid fa-person"></i>
-                    <div class="purchase-button light" onclick="escolhaBarbaro()">Escolhido</div>
+                    <div class="purchase-button-container">
+                        <h2 class="back-h2">Barbaro</h2>
+                        <div class="purchase-button light" onclick="escolhaBarbaro()">Escolhido</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card-wrapper col-lg-3">
-            <div class="card dark mago">
-                <div class="text-overlay">
-                    <h2>Mago</h2>
-                    <div class="price"></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+            <div class="card-wrapper col-lg-3">
+                <div class="card dark mago">
+                    <div class="text-overlay">
+                        <h2>Mago</h2>
+                        <div class="price"></div>
+                        <div class="details-text">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Mago</h2>
-                    <i class="fa-solid fa-people-group"></i>
-                    <div class="purchase-button dark" onclick="escolhaMago()">Escolhido</div>
+                    <div class="purchase-button-container">
+                        <h2 class="back-h2">Mago</h2>
+                        <div class="purchase-button dark" onclick="escolhaMago()">Escolhido</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card-wrapper col-lg-3">
-            <div class="card light artificer">
-                <div class="text-overlay">
-                    <h2>Artificer</h2>
-                    <div class="price"><small></small></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+            <div class="card-wrapper col-lg-3">
+                <div class="card light artificer">
+                    <div class="text-overlay">
+                        <h2>Artificer</h2>
+                        <div class="price"><small></small></div>
+                        <div class="details-text">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Artificer</h2>
-                    <i class="fa-solid fa-person"></i>
-                    <div class="purchase-button light" onclick="escolhaArtificer()">Escolhido</div>
+                    <div class="purchase-button-container">
+                        <h2 class="back-h2">Artificer</h2>
+                        <div class="purchase-button light" onclick="escolhaArtificer()">Escolhido</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card-wrapper col-lg-3">
-            <div class="card dark mago">
-                <div class="text-overlay">
-                    <h2>Warlock</h2>
-                    <div class="price"></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+            <div class="card-wrapper col-lg-3">
+                <div class="card dark bruxo">
+                    <div class="text-overlay">
+                        <h2>Warlock</h2>
+                        <div class="price"></div>
+                        <div class="details-text">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Warlock</h2>
-                    <i class="fa-solid fa-people-group"></i>
-                    <div class="purchase-button dark" onclick="escolhaMago()">Escolhido</div>
+                    <div class="purchase-button-container">
+                        <h2 class="back-h2">Warlock</h2>
+                        <div class="purchase-button dark" onclick="escolhaBruxo()">Escolhido</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,6 +85,9 @@
 
 
 <div id="divEscolha2" class="escondidas"> @await Html.PartialAsync("Escolha2") </div>
+<div id="divEscolha3" class="escondidas"> @await Html.PartialAsync("Escolha3") </div>
+<div id="divEscolha4" class="escondidas"> @await Html.PartialAsync("Escolha4") </div>
+<div id="divEscolha5" class="escondidas"> @await Html.PartialAsync("Escolha5") </div>
 
 <script src="/js/Escolha.js"></script>
 

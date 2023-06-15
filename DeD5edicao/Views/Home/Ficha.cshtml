@@ -8,44 +8,45 @@
 <button type="button" class="btn btn btn-dark" id="btnFicha3" onclick="AbrirTela('divFicha3', 'btnFicha3')">CARACTERISTICAS</button>
 <button type="button" class="btn btn btn-dark" id="btnFicha4" onclick="AbrirTela('divFicha4', 'btnFicha4')">IDIOMAS E APARÊNCIA</button>
 <button type="button" class="btn btn btn-dark" id="btnFicha5" onclick="AbrirTela('divFicha5', 'btnFicha5')">HISTÓRIA</button>
+<button type="button" class="btn btn-warning salvar">Salvar</button>
 
 
 <div id="divFicha1">
     <div id="cabecalho" class="row">
         <div id="nome_personagem" class="col-lg-4">
-            <textarea type="text" placeholder="Nome do Personagem" title="Nome do personagem" class="nome_personagem" maxlength="100"></textarea>
+            <textarea type="text" placeholder="Nome do Personagem" title="Nome do personagem" class="nome_personagem" maxlength="100" id="personagem"></textarea>
             <span> Nome do Personagem</span>
         </div>
         <div id="infos" class="col-lg-8">
             <div id="linha1" class="row">
                 <div class="col-lg-3">
-                    <textarea type="text" placeholder="Classe" title="classe" class="classe"></textarea>
+                    <textarea type="text" placeholder="Classe" title="classe" class="classe" id="classe"></textarea>
                     <span>Classe</span>
                 </div>
                 <div class="col-lg-3">
-                    <input type="number" min="0" placeholder="Nivel" title="Seu nivel" class="nivel" />
+                    <input type="number" min="0" placeholder="Nivel" title="Seu nivel" class="nivel" id="nivel" />
                     <span>Nivel</span>
                 </div>
                 <div class="col-lg-3">
-                    <textarea type="text" placeholder="Antecedente" title="Antecedente" class="antecedente"></textarea>
+                    <textarea type="text" placeholder="Antecedente" title="Antecedente" class="antecedente" id="antecedente"></textarea>
                     <span>Antecedente</span>
                 </div>
                 <div class="col-lg-3">
-                    <textarea type="text" placeholder="Nome do Jogador" title="Nome do Jogador" class="jogador"></textarea>
+                    <textarea type="text" placeholder="Nome do Jogador" title="Nome do Jogador" class="jogador" id="nome_jogador"></textarea>
                     <span>Nome do Jogador</span>
                 </div>
             </div>
             <div id="linha2" class="row">
                 <div class="col-lg-3">
-                    <textarea type="text" placeholder="Raça" title="Raça" class="raca"></textarea>
+                    <textarea type="text" placeholder="Raça" title="Raça" class="raca" id="raca"></textarea>
                     <span>Raça</span>
                 </div>
                 <div class="col-lg-3">
-                    <textarea type="text" placeholder="Tendência" title="Tendência" class="tendencia"></textarea>
+                    <textarea type="text" placeholder="Tendência" title="Tendência" class="tendencia" id="tendencia"></textarea>
                     <span>Tendência</span>
                 </div>
                 <div class="col-lg-3">
-                    <input type="number" placeholder="Pontos de Experiência" title="Pontos de Experiência" class="exp" />
+                    <input type="number" placeholder="Pontos de Experiência" title="Pontos de Experiência" class="exp" min="0"/>
                     <span>Pontos de Experiência</span>
                 </div>
             </div>
@@ -57,33 +58,33 @@
             <div id="status">
                 <div id="forca" class="col-lg-2">
                     <span>Força</span>
-                    <input type="number" title="Modificador de força" class="mod_forca" />
-                    <input type="number" min="0" title="Status de força" class="forca" />
+                    <input type="number" title="Modificador de força" class="mod_forca" id="mod_forca" />
+                    <input type="number" min="0" title="Status de força" class="forca"  id="StatusForca"/>
                 </div>
                 <div id="destreza" class="col-lg-2">
                     <span>Destreza</span>
-                    <input type="number" title="Modificador de destreza" class="mod_destreza" />
-                    <input type="number" min="0" title="Status de destreza" class="destreza" />
+                    <input type="number" title="Modificador de destreza" class="mod_destreza" id="mod_destreza" />
+                    <input type="number" min="0" title="Status de destreza" class="destreza" id="StatusDestreza" />
                 </div>
                 <div id="constituicao" class="col-lg-2">
                     <span>Constituição</span>
-                    <input type="number" title="Modificador de constituição" class="mod_constituicao" />
-                    <input type="number" min="0" title="Status de constituição" class="constituicao" />
+                    <input type="number" title="Modificador de constituição" class="mod_constituicao" id="mod_constituicao" />
+                    <input type="number" min="0" title="Status de constituição" class="constituicao" id="StatusConstituicao" />
                 </div>
                 <div id="inteligencia" class="col-lg-2">
                     <span>Inteligência</span>
-                    <input type="number" title="Modificador de inteligência" class="mod_inteligencia" />
-                    <input type="number" min="0" title="Status de inteligência" class="inteligencia" />
+                    <input type="number" title="Modificador de inteligência" class="mod_inteligencia" id="mod_inteligencia" />
+                    <input type="number" min="0" title="Status de inteligência" class="inteligencia" id="StatusInteligencia" />
                 </div>
                 <div id="sabedoria" class="col-lg-2">
                     <span>Sabedoria</span>
-                    <input type="number" title="Modificador de sabedoria" class="mod_sabedoria" />
-                    <input type="number" min="0" title="Status de sabedoria" class="sabedoria" />
+                    <input type="number" title="Modificador de sabedoria" class="mod_sabedoria" id="mod_sabedoria"/>
+                    <input type="number" min="0" title="Status de sabedoria" class="sabedoria" id="StatusSabedoria" />
                 </div>
                 <div id="carisma" class="col-lg-2">
                     <span>Carisma</span>
-                    <input type="number" title="Modificador de carisma" class="mod_carisma" />
-                    <input type="number" min="0" title="Status de carisma" class="carisma" />
+                    <input type="number" title="Modificador de carisma" class="mod_carisma" id="mod_carisma"/>
+                    <input type="number" min="0" title="Status de carisma" class="carisma" id="StatusCarisma" />
                 </div>
             </div>
         </div>
@@ -94,38 +95,38 @@
                 <span>Inspiração</span>
             </div>
             <div id="proficiencia">
-                <input type="number" class="proficiencia" />
+                <input type="number" class="proficiencia" id="bonus_proeficiencia"/>
                 <span>Bônus de Proeficiência</span>
             </div>
             <div id="teste">
                 <div id="teste_forca">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="teste_forca" />
+                    <input type="number" class="teste_forca" id="teste-forca" />
                     <span>Força</span>
                 </div>
                 <div id="teste_destreza">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="teste_destreza" />
+                    <input type="number" class="teste_destreza" id="teste-destreza" />
                     <span>Destreza</span>
                 </div>
                 <div id="teste_constituicao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="teste_constituicao" />
+                    <input type="number" class="teste_constituicao" id="teste-constituicao" />
                     <span>Constituição</span>
                 </div>
                 <div id="teste_inteligencia">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="teste_inteligencia" />
+                    <input type="number" class="teste_inteligencia" id="teste-inteligencia" />
                     <span>Inteligência</span>
                 </div>
                 <div id="teste_sabedoria">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="teste_sabedoria" />
+                    <input type="number" class="teste_sabedoria" id="teste-sabedoria" />
                     <span>Sabedoria</span>
                 </div>
                 <div id="teste_carisma">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="teste_carisma" />
+                    <input type="number" class="teste_carisma" id="teste-carisma" />
                     <span>Carisma</span>
                 </div>
                 <span class="teste_resis">TESTES DE RESISTÊNCIA</span>
@@ -136,92 +137,92 @@
             <div id="pericias">
                 <div id="pericia_acrobacia">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_acrobacia" />
+                    <input type="number" class="pericia_acrobacia" id="pericia-acrobacia" />
                     <span>Acrobacia <small>(Des)</small></span>
                 </div>
                 <div id="pericia_arcanismo">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_arcanismo" />
+                    <input type="number" class="pericia_arcanismo" id="pericia-arcanismo" />
                     <span>Arcanismo <small>(Int)</small></span>
                 </div>
                 <div id="pericia_atletismo">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_atletismo" />
+                    <input type="number" class="pericia_atletismo" id="pericia-atletismo" />
                     <span>Atletismo <small>(For)</small></span>
                 </div>
                 <div id="pericia_atuacao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_atuacao" />
+                    <input type="number" class="pericia_atuacao" id="pericia-atuacao" />
                     <span>Atuação <small>(Car)</small></span>
                 </div>
                 <div id="pericia_blefar">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_blefar" />
+                    <input type="number" class="pericia_blefar" id="pericia-blefar" />
                     <span>Blefar <small>(Car)</small></span>
                 </div>
                 <div id="pericia_furtividade">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_furtividade" />
+                    <input type="number" class="pericia_furtividade" id="pericia-furtividade" />
                     <span>Furtividade <small>(Des)</small></span>
                 </div>
                 <div id="pericia_historia">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_historia" />
+                    <input type="number" class="pericia_historia" id="pericia-historia" />
                     <span>Historia <small>(Int)</small></span>
                 </div>
                 <div id="pericia_intimidacao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_intimidacao" />
+                    <input type="number" class="pericia_intimidacao" id="pericia-intimidacao" />
                     <span>Intimidação <small>(Car)</small></span>
                 </div>
                 <div id="pericia_intuicao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_intuica" />
+                    <input type="number" class="pericia_intuica" id="pericia-intuica" />
                     <span>Intuição <small>(Sab)</small></span>
                 </div>
                 <div id="pericia_investigacao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_investigacao" />
+                    <input type="number" class="pericia_investigacao" id="pericia-investigacao" />
                     <span>Investigação <small>(Int)</small></span>
                 </div>
                 <div id="pericia_animais">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_animais" />
+                    <input type="number" class="pericia_animais" id="pericia-animais" />
                     <span>Lidar com Animais <small>(Sab)</small></span>
                 </div>
                 <div id="pericia_medicina">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_medicina" />
+                    <input type="number" class="pericia_medicina" id="pericia-medicina" />
                     <span>Medicina <small>(Sab)</small></span>
                 </div>
                 <div id="pericia_natureza">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_natureza" />
+                    <input type="number" class="pericia_natureza" id="pericia-natureza" />
                     <span>Natureza <small>(Int)</small></span>
                 </div>
                 <div id="pericia_percepcao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_percepcap" />
+                    <input type="number" class="pericia_percepcao" id="pericia-percepcao" />
                     <span>Percepção <small>(Sab)</small></span>
                 </div>
                 <div id="pericia_persuasao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_persuasao" />
+                    <input type="number" class="pericia_persuasao" id="pericia-persuasao" />
                     <span>Persuasão <small>(Car)</small></span>
                 </div>
                 <div id="pericia_prestidigitacao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_prestidigitacao" />
+                    <input type="number" class="pericia_prestidigitacao" id="pericia-prestidigitacao" />
                     <span>Prestidigitação <small>(Des)</small></span>
                 </div>
                 <div id="pericia_religiao">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_religiao" />
+                    <input type="number" class="pericia_religiao" id="pericia-religiao" />
                     <span>Religião <small>(Int)</small></span>
                 </div>
                 <div id="pericia_sobrevivencia">
                     <input class="check" type="checkbox" value="" />
-                    <input type="number" class="pericia_sobrevivencia" />
+                    <input type="number" class="pericia_sobrevivencia" id="pericia-sobrevivencia" />
                     <span>Sobrevivencia <small>(Sab)</small></span>
                 </div>
                 <span class="peri">PERÍCIAS</span>
@@ -232,15 +233,15 @@
             <div id="grupo">
                 <div id="superior" class="row">
                     <div id="armadura" class="col-lg-4">
-                        <input type="number" class="armadura" />
+                        <input type="number" class="armadura" id="armaduras" />
                         <span>classe armd</span>
                     </div>
                     <div id="iniciativa" class="col-lg-3">
-                        <input type="number" class="iniciativa" />
+                        <input type="number" class="iniciativa" id="mod_iniciativa" />
                         <span>Iniciativa</span>
                     </div>
                     <div id="deslocamento" class="col-lg-4">
-                        <input type="number" class="deslocamento" />
+                        <input type="number" class="deslocamento" id="deslocamentos" />
                         <span>deslocamento</span>
                     </div>
                 </div>
@@ -248,9 +249,9 @@
                     <div id="PV">
                         <div id="cima" class="row">
                             <small class="col-lg-3 pv_texto">PV Totais</small>
-                            <input type="number" min="0" placeholder="PV Total" class="col-lg-9 pvt" />
+                            <input type="number" min="0" placeholder="PV Total" class="col-lg-9 pvt" id="pvt"/>
                         </div>
-                        <input type="number" min="0" class="pva" />
+                        <input type="number" min="0" class="pva" id="pva" />
                         <span class="pv-span">PONTOS DE VIDA ATUAIS</span>
                     </div>
                     <div id="PVTemp">
@@ -265,7 +266,7 @@
                             <input type="number" min="0" placeholder="Total" class="col-lg-9" />
                         </div>
                         <div id="dado">
-                            <input type="text" />
+                            <input type="text" id="dado_vida" />
                             <span class="dado-span">DADOS DE VIDA</span>
                         </div>
                     </div>
