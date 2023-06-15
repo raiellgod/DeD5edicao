@@ -1,5 +1,5 @@
 ﻿window.onload = function carregaAtributos() {
-    document.getElementById("classe").value = localStorage.getItem("classe");
+    document.getElementById("classes").value = localStorage.getItem("classe");
     document.getElementById("nivel").value = localStorage.getItem("nivel");
     document.getElementById("pvt").value = localStorage.getItem("pv");
     document.getElementById("pva").value = localStorage.getItem("pv");
@@ -10,27 +10,26 @@
     document.getElementById("StatusSabedoria").value = localStorage.getItem("sabedoria");
     document.getElementById("StatusCarisma").value = localStorage.getItem("carisma");
     document.getElementById("bonus_proficiencia").value = localStorage.getItem("proficiencia");
-    document.getElementById("mod_forca").value = localStorage.getItem("mod_forca");
+    document.getElementById("armaduras").value = localStorage.getItem("armadura");
+    document.getElementById("deslocamentos").value = localStorage.getItem("deslocamento");
+    document.getElementById("dado_vida").value = localStorage.getItem("dado_vida");
+    document.getElementById("outra_caracteristica").value = localStorage.getItem("proficiencia");
+    document.getElementById("mod_forca").value = localStorage.getItem("mod-forca");
+    alert('parte 1');
     document.getElementById("mod_destreza").value = localStorage.getItem("mod_destreza");
     document.getElementById("mod_constituicao").value = localStorage.getItem("mod_constituicao");
     document.getElementById("mod_inteligencia").value = localStorage.getItem("mod_inteligencia");
     document.getElementById("mod_sabedoria").value = localStorage.getItem("mod_sabedoria");
     document.getElementById("mod_carisma").value = localStorage.getItem("mod_carisma");
     document.getElementById("mod_iniciativa").value = localStorage.getItem("mod_destreza");
+    alert('parte2');
     document.getElementById("teste-forca").value = localStorage.getItem("mod_forca");
     document.getElementById("teste-destreza").value = localStorage.getItem("mod_destreza");
     document.getElementById("teste-constituicao").value = localStorage.getItem("mod_constituicao");
     document.getElementById("teste-inteligencia").value = localStorage.getItem("mod_inteligencia");
     document.getElementById("teste-sabedoria").value = localStorage.getItem("mod_sabedoria");
     document.getElementById("teste-carisma").value = localStorage.getItem("mod_carisma");
-    document.getElementById("armaduras").value = localStorage.getItem("armadura");
-    document.getElementById("deslocamentos").value = localStorage.getItem("deslocamento");
-    document.getElementById("dado_vida").value = localStorage.getItem("dado_vida");
-    document.getElementById("outra_caracteristica").value = localStorage.getItem("proficiencia");
-};
-
-
-window.onload = function carregaModificadores() {
+    alert('parte3');
     document.getElementById("pericia-acrobacia").value = localStorage.getItem("mod_destreza");
     document.getElementById("pericia-arcanismo").value = localStorage.getItem("mod_inteligencia");
     document.getElementById("pericia-atletismo").value = localStorage.getItem("mod_forca");
@@ -46,11 +45,10 @@ window.onload = function carregaModificadores() {
     document.getElementById("pericia-natureza").value = localStorage.getItem("mod_inteligencia");
     document.getElementById("pericia-percepcao").value = localStorage.getItem("mod_sabedoria");
     document.getElementById("pericia-persuasao").value = localStorage.getItem("mod_carisma");
+    alert('parte4');
     document.getElementById("pericia-prestidigitacao").value = localStorage.getItem("mod_destreza");
     document.getElementById("pericia-religiao").value = localStorage.getItem("mod_inteligencia");
     document.getElementById("pericia-sobrevivencia").value = localStorage.getItem("mod_sabedoria");
-};
-window.onload = function carregaHistoria() {
     document.getElementById("raca").value = localStorage.getItem("raca");
     document.getElementById("idade").value = localStorage.getItem("idade");
     document.getElementById("altura").value = localStorage.getItem("tamaho");
@@ -60,8 +58,9 @@ window.onload = function carregaHistoria() {
     document.getElementById("tendencia").value = localStorage.getItem("tendencia");
     document.getElementById("antecedente").value = localStorage.getItem("antecedencia");
     document.getElementById("minha_bolsa").value = localStorage.getItem("equipamentos");
-    document.getElementById("meu_po").value = localStorage.getItem("dinheiro");
+    document.getElementById("po_id").value = localStorage.getItem("dinheiro");
     document.getElementById("caracteristicas").value = localStorage.getItem("caracteristicas");
+    alert('parte5');
     document.getElementById("meu_traco").value = localStorage.getItem("personal");
     document.getElementById("meu_ideal").value = localStorage.getItem("ideal");
     document.getElementById("meu_vinculo").value = localStorage.getItem("vinculo");
@@ -71,6 +70,7 @@ window.onload = function carregaHistoria() {
     document.getElementById("olho").value = localStorage.getItem("olho");
     document.getElementById("pele").value = localStorage.getItem("pele");
     document.getElementById("cabelo").value = localStorage.getItem("cabelo");
+    alert('parte6');
     document.getElementById("minha aparencia").value = localStorage.getItem("aparencia");
     document.getElementById("minha_historia").value = localStorage.getItem("Historia");
     document.getElementById("meu_tesouro").value = localStorage.getItem("tesouro");

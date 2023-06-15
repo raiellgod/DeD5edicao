@@ -1,5 +1,5 @@
 ﻿function escolhaBarbaro() {
-    preencher_status("Barbaro", 1, 14, 16, 15, 14, 11, 13, 9, 2, 12, "D12")
+    preencher_status("Barbaro", 1, 14, 16, 15, 14, 11, 13, 9, 2, 12, "D12");
     preencher_modificadores(3, 2, 2, 0, 1, -1)
     preencher_proficiencia("Armaduras: Armaduras leves, armaduras médias e escudos Armas: Armas simples, armas marciais Ferramentas: Kit de herbalismo ")
 };
@@ -36,13 +36,13 @@ function preencher_status(classe, nivel, ponto_de_vida, forca, destreza, constit
     localStorage.setItem("dado_vida", dado_vida);
 };
 
-function preencher_modificadores (mod_forca, mod_destreza, mod_constituicao, mod_inteligencia, mod_sabedoria, mod_carisma) {
-    localStorage.setItem("mod_forca", mod_forca);
-    localStorage.setItem("mod_destreza", mod_destreza);
-    localStorage.setItem("mod_constituicao", mod_constituicao);
-    localStorage.setItem("mod_inteligencia", mod_inteligencia);
-    localStorage.setItem("mod_sabedoria", mod_sabedoria);
-    localStorage.setItem("mod_carisma", mod_carisma);
+function preencher_modificadores(mod_forca, mod_destreza, mod_constituicao, mod_inteligencia, mod_sabedoria, mod_carisma) {
+    localStorage.setItem("mod-forca", mod_forca);
+    localStorage.setItem("mod-destreza", mod_destreza);
+    localStorage.setItem("mod-constituicao", mod_constituicao);
+    localStorage.setItem("mod-inteligencia", mod_inteligencia);
+    localStorage.setItem("mod-sabedoria", mod_sabedoria);
+    localStorage.setItem("mod-carisma", mod_carisma);
 };
 
 function preencher_proficiencia(proficiencia) {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Uj5JTOBoTvlm9jhGXy+wCB0dulE82dM2aiuJjCgKr2c=",
+  "Hash": "Ew6w9AWGK/cwo4NgOHqjz6xkkxmyR21KBKaaRpKB5AY=",
   "Source": "DeD5edicao",
   "BasePath": "_content/DeD5edicao",
   "Mode": "Default",
@@ -525,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
+    },
+    {
+      "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\js\\preencher_modificadores.js",
+      "SourceId": "DeD5edicao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\",
+      "BasePath": "_content/DeD5edicao",
+      "RelativePath": "js/preencher_modificadores.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\preencher_modificadores.js"
     },
     {
       "Identity": "C:\\respositorios\\DeD5edicao\\DeD5edicao\\wwwroot\\js\\site.js",
