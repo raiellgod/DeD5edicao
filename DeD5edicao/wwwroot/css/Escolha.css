@@ -215,9 +215,60 @@ small {
     margin-top: 0;
 }
 
-.escondidas {
-    display: none;
+#aparencia_descrita, #visao_dos_outros, #minha_historia, #tesouro_pessoal {
+    margin:0;
+    padding:0;
 }
+
+
+    #aparencia_descrita, #aparencia_descrita span, #visao_dos_outros, #visao_dos_outros span, #minha_historia, #minha_historia span, #tesouro_pessoal, #tesouro_pessoal span {
+        border: 2px solid #000;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 0;
+    }
+
+.Escolha6 span {
+    background: #fff;
+    height: 2em;
+    width: 20%;
+}
+
+        #aparencia_descrita textarea {
+            border-radius: 10px;
+            background: #DEE5FF;
+            color: #000;
+            height: 30px;
+            margin-left: 50px;
+            margin-top:20px;
+            width: 300px;
+            padding: 0;
+        }
+
+#visao_dos_outros textarea, #minha_historia textarea, #tesouro_pessoal textarea {
+    border-radius: 10px;
+    background: #DEE5FF;
+    color: #000;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 300px;
+    padding: 0;
+}
+
+#visao_dos_outros span, #minha_historia span, #tesouro_pessoal span {
+    height: 2em;
+    width:20%;
+}
+
+    .row {
+        padding: 0;
+    }
+
+    .escondidas {
+        display: none;
+    }
 
 .footer {
     position: relative;

@@ -2,59 +2,56 @@
 <link rel="stylesheet" href="~/css/Escolha.css" asp-append-version="true" />
 
 
-<div class="containerer">
-    <h1>Escolha sua classe</h1>
-    <div class="card-container">
-        <div class="card-wrapper">
-            <div class="card light artista">
-                <div class="text-overlay">
-                    <h2>Artista</h2>
-                    <div class="price"><small></small></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Artista</h2>
-                    <div class="purchase-button light" onclick="escolhaBarbaro()">Escolhido</div>
-                </div>
-            </div>
+<div class="Escolha6">
+    <div id="aparencia_descrita">
+        <div class="nome row">
+            <span class="col-lg-3"> nome do personagem</span>
+            <textarea type="text" title=" nome do personagem" placeholder="Nome do personagem" class="col-lg-5"></textarea>
         </div>
-        <div class="card-wrapper">
-            <div class="card dark eremita">
-                <div class="text-overlay">
-                    <h2>Eremita</h2>
-                    <div class="price"></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Eremita</h2>
-                    <div class="purchase-button dark" onclick="escolhaEremita()">Escolhido</div>
-                </div>
-            </div>
+        <div class="caracteristicas fisicas row">
+            <span class="col-lg-3"> Idade do persoangem</span>
+            <textarea type="text" title=" idade do personagem" placeholder="idade do personagem" class="col-lg-5"></textarea>
         </div>
-        <div class="card-wrapper">
-            <div class="card light sabio">
-                <div class="text-overlay">
-                    <h2>Sabio</h2>
-                    <div class="price"><small></small></div>
-                    <div class="details-text">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <div class="purchase-button-container">
-                    <h2 class="back-h2">Sabio</h2>
-                    <div class="purchase-button light" onclick="escolhaSabio()">Escolhido</div>
-                </div>
-            </div>
+        <div class="altura row">
+            <span class="col-lg-3"> Altura do personagem</span>
+            <textarea type="text" title=" altura do personagem" placeholder="altura do personagem" class="col-lg-5"></textarea>
+        </div>
+        <div class="peso row">
+            <span class="col-lg-3"> Peso do personagem</span>
+            <textarea type="text" title=" peso do personagem" placeholder="Peso do personagem" class="col-lg-5"></textarea>
+        </div>
+        <div class="olhos row">
+            <span class="col-lg-3"> Cor dos olhos do personagem</span>
+            <textarea type="text" title=" cor dos olhos do personagem" placeholder="Cor dos Olhos do personagem" class="col-lg-5"></textarea>
+        </div>
+        <div class="pele row">
+            <span class="col-lg-3"> Tom de pele do personagem</span>
+            <textarea type="text" title=" tom de pele do personagem" placeholder="Tom de pele do personagem" class="col-lg-5"></textarea>
+        </div>
+        <div class="cabelo row">
+            <span class="col-lg-3"> Cor do cabelo do personagem</span>
+            <textarea type="text" title=" cor do cabelo do personagem" placeholder="Cor do cabelo do personagem" class="col-lg-5"></textarea>
+        </div>
+    </div>
+
+    <div id="visao_dos_outros">
+        <div class="aparencia_do_personaqem row">
+            <span class="col-lg-3"> Descrição do personagem</span>
+            <textarea type="text" title=" descrição do personagem" placeholder=" Descrição do personagem" class="col-lg-5"></textarea>
+        </div>
+    </div>
+
+    <div id="minha_historia">
+        <div class="quem_sou_eu row">
+            <span class="col-lg-3"> Historia do personagem</span>
+            <textarea type="text" title=" Historia do personagem" placeholder=" Historia do personagem" class="col-lg-5"></textarea>
+        </div>
+    </div>
+
+    <div id="tesouro_pessoal">
+        <div class="tesouro_do_personaqem row">
+            <span class="col-lg-3"> Meu Tesouro</span>
+            <textarea type="text" title=" itens mais importantes do personagem" placeholder=" Tesouro do personagem" class="col-lg-5"></textarea>
         </div>
     </div>
 </div>

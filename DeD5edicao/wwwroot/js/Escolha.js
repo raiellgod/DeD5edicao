@@ -1,24 +1,34 @@
 ﻿function escolhaBarbaro() {
     preencher_status("Barbaro", 1, 14, 16, 15, 14, 11, 13, 9, 2, 12, "D12");
-    preencher_modificadores(3, 2, 2, 0, 1, -1)
-    preencher_proficiencia("Armaduras: Armaduras leves, armaduras médias e escudos Armas: Armas simples, armas marciais Ferramentas: Kit de herbalismo ")
+    preencher_modificadores(3, 2, 2, 0, 1, -1);
+    preencher_proficiencia("Armaduras: Armaduras leves, armaduras médias e escudos Armas: Armas simples, armas marciais Ferramentas: Kit de herbalismo ");
+    AbrirTela('divEscolha2', 'btnEscolha2');
 };
 
 function escolhaHumano() {
-    preencher_dados("humano", 30, 1.83, 80, "9m", "comum, anão e dracónico ")
+    preencher_dados("humano", 30, 1.83, 80, 9, "comum, anão e dracónico ");
+    AbrirTela('divEscolha3', 'btnEscolha3')
 };
 
 function escolhaNeutro() {
-    preencher_dados2("neutro")
+    preencher_dados2("neutro");
+    AbrirTela('divEscolha4', 'btnEscolha4')
 };
 
 function escolhaEremita() {
-    preencher_dados3("Eremita", "Um estojo de pergaminho cheio de notas dos seus estudos e orações, um cobertor de inverno, um conjunto de roupas comuns, um kit de herbalismo ", 5)
-    preencher_tracos("Vida de Isolamento: Eu me afastei da sociedade após um evento que mudou minha vida.", "Eu estou alheio a etiqueta e expectativas sociais.", "Viva e Deixe Viver. Se intrometer nos assuntos dos outros só traz problemas.", "Eu entrei em reclusão porque eu amava alguém que eu não podia ter.", "Agora que voltei ao mundo, eu desfruto de seus prazeres um pouco demais.")
+    preencher_dados3("Eremita", "Um estojo de pergaminho cheio de notas dos seus estudos e orações, um cobertor de inverno, um conjunto de roupas comuns, um kit de herbalismo ", 5);
+    preencher_tracos("Vida de Isolamento: Eu me afastei da sociedade após um evento que mudou minha vida.", "Eu estou alheio a etiqueta e expectativas sociais.", "Viva e Deixe Viver. Se intrometer nos assuntos dos outros só traz problemas.", "Eu entrei em reclusão porque eu amava alguém que eu não podia ter.", "Agora que voltei ao mundo, eu desfruto de seus prazeres um pouco demais.");
+    AbrirTela('divEscolha5', 'btnEscolha5')
 };
 
 function escolhaFisica() {
-    preencher_aparencia("Boromir", "preto", "parda", "preto", "Um homem alto e forte, as lutas da vida me colocaram muitas cicatrizes e uma feiura a carne que se misturam a lindas tatuagens de guerreiro", "Na tenra idade conheceu o amor da sua vida, mas o destino os afastou e ela acabou casada com outra pessoa isso me dessestabilizou e entrei numa viajem de autoconhecimento, mas apenas me desiludiu com as pessoas, mas agora que obtive um norte na vida não perco uma chance de aproveitar as boas coisas da vida muitos me chamariam de vagabundo mas eu me chamo de bon - vivant", "um colar dado a mim por minha amada e uma carta dela")
+    preencher_aparencia("Boromir", "preto", "parda", "preto", "Um homem alto e forte, as lutas da vida me colocaram muitas cicatrizes e uma feiura a carne que se misturam a lindas tatuagens de guerreiro", "Na tenra idade conheceu o amor da sua vida, mas o destino os afastou e ela acabou casada com outra pessoa isso me dessestabilizou e entrei numa viajem de autoconhecimento, mas apenas me desiludiu com as pessoas, mas agora que obtive um norte na vida não perco uma chance de aproveitar as boas coisas da vida muitos me chamariam de vagabundo mas eu me chamo de bon - vivant", "um colar dado a mim por minha amada e uma carta dela");
+    alert('Escolhas salvas com sucesso!');
+    window.location.href = "../Home/Ficha";
+};
+
+function salvar() {
+    alert('Escolhas salvas com sucesso!');
 };
 
 function preencher_status(classe, nivel, ponto_de_vida, forca, destreza, constituicao, inteligencia, sabedoria, carisma, bonus_prof, classe_arma, dado_vida) {
@@ -72,7 +82,7 @@ function preencher_tracos(caracteristicas, traco_personal, ideal, vinculo, defei
     localStorage.setItem("caracteristicas", caracteristicas);
     localStorage.setItem("personal", traco_personal);
     localStorage.setItem("ideal", ideal);
-    ocalStorage.setItem("vinculo", vinculo);
+    localStorage.setItem("vinculo", vinculo);
     localStorage.setItem("defeito", defeito);
 };
 
@@ -83,7 +93,7 @@ function preencher_aparencia(nome_personagem, olho, pele, cabelo, aparencia, his
     localStorage.setItem("pele", pele);
     localStorage.setItem("cabelo", cabelo);
     localStorage.setItem("aparencia", aparencia);
-    ocalStorage.setItem("Historia", historia);
+    localStorage.setItem("historia", historia);
     localStorage.setItem("tesouro", tesouro);
 };
 
